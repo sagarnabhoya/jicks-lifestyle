@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-2",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": true,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "extra-small-screen",
+        "content_alignment": "center",
+        "content_color_style": "dark-style",
+        "banner_bg_color": "",
+        "banner_image": "shopify://shop_images/demo-leather-page-title-img-01.jpg"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "bd82edae-d5e7-4f3e-bbaf-17ebd954668b": {
+          "type": "product-slider",
+          "disabled": true,
+          "settings": {
+            "block_title": "Popular product",
+            "collection_block": "maxi-bags"
+          }
+        },
+        "c95d2e09-9024-4e9f-b442-ba68001e5354": {
+          "type": "sidebar-banner",
+          "settings": {
+            "banner_image": "shopify://shop_images/demo-leather-offer-banner.jpg",
+            "btn_link": "shopify://collections/maxi-bags"
+          }
+        }
+      },
+      "block_order": [
+        "bd82edae-d5e7-4f3e-bbaf-17ebd954668b",
+        "c95d2e09-9024-4e9f-b442-ba68001e5354"
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "pagination_style": "paginate",
+        "enable_sorting": true,
+        "show_product_options": true,
+        "show_grid_bar": true,
+        "enable_sidebar": true,
+        "products_per_page": 12,
+        "sidebar_position": "left",
+        "collection_list_title": "Collection",
+        "menu": "leather-collection-list",
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "small-section-bottom"
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "product-grid"
+  ]
+}

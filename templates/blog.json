@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container_type": "container",
+        "banner_title_size": "h-3",
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "title_uppercase": false,
+        "border_top": true,
+        "border_bottom": false,
+        "show_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "a9a40d46-0486-4e35-8d44-c9c7c940091e": {
+          "type": "categories",
+          "settings": {
+            "title": "Categories",
+            "category_menu": "blog-category"
+          }
+        },
+        "d1558332-3e0b-4d4a-a0ba-bfc373d69381": {
+          "type": "recent-post",
+          "settings": {
+            "title": "Recent post",
+            "recent_post": "leather",
+            "post_limit": 3,
+            "blog_show_date": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_show_tags": false,
+            "truncate_excerpt": true,
+            "truncate_word": "8"
+          }
+        },
+        "6cc23e2d-e7dc-430d-904c-7a87c3ddd4b7": {
+          "type": "tags",
+          "settings": {
+            "title": "Tags cloud"
+          }
+        },
+        "bfcb2a56-2274-40c8-98e1-8c24bb63be1a": {
+          "type": "instagram",
+          "settings": {
+            "title": "Instagram",
+            "count": 6
+          }
+        }
+      },
+      "block_order": [
+        "a9a40d46-0486-4e35-8d44-c9c7c940091e",
+        "d1558332-3e0b-4d4a-a0ba-bfc373d69381",
+        "6cc23e2d-e7dc-430d-904c-7a87c3ddd4b7",
+        "bfcb2a56-2274-40c8-98e1-8c24bb63be1a"
+      ],
+      "settings": {
+        "container_type": "container",
+        "show_sidebar": false,
+        "sidebar_placement": "right-column",
+        "post_limit_desktop": 4,
+        "post_limit_mini_desktop": 2,
+        "post_limit_tablet": 2,
+        "post_limit_mobile": 1,
+        "post_limit": 12,
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

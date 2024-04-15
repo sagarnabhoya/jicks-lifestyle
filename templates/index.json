@@ -1,0 +1,845 @@
+{
+  "sections": {
+    "5310f0dd-15f1-4134-a728-485c3f1ef44e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1400x540-2X-Desktop_1.jpg",
+            "title": "Exclusive <br> collection",
+            "subtitle": "",
+            "description": "Discover handcrafted luxury leather products.",
+            "txt_alignment": "end",
+            "box_alignment": "justify-content-end align-items-center",
+            "button_style": "btn-custom",
+            "button_size": "btn-large",
+            "btn_radius": 4,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "Shop collection",
+            "btn_link": "shopify://collections"
+          }
+        },
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Boxer_Banner_1_1.jpg",
+            "title": "Heritage <br> handbag",
+            "subtitle": "",
+            "description": "Discover handcrafted luxury leather products.",
+            "txt_alignment": "left",
+            "box_alignment": "justify-content-start align-items-center",
+            "button_style": "btn-custom",
+            "button_size": "btn-large",
+            "btn_radius": 4,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "Shop collection",
+            "btn_link": "shopify://collections"
+          }
+        },
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Innerwear-Banner_1.jpg",
+            "title": "Premium <br> collection",
+            "subtitle": "",
+            "description": "Discover handcrafted luxury leather products.",
+            "txt_alignment": "end",
+            "box_alignment": "justify-content-end align-items-center",
+            "button_style": "btn-custom",
+            "button_size": "btn-large",
+            "btn_radius": 4,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "Shop collection",
+            "btn_link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-0",
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-1",
+        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-2"
+      ],
+      "settings": {
+        "container_type": "w-100",
+        "show_content_container": true,
+        "full_height": true,
+        "custom_height_desktop": 850,
+        "custom_height_mini_desktop": 600,
+        "custom_height_ipad": 500,
+        "custom_height_mobile": 450,
+        "column_width": "9",
+        "show_magic_cursor": false,
+        "magic_cursor_color_scheme": "dark",
+        "slider_announcement": "",
+        "annoucement_alignment": "center",
+        "slider_effect": "fadeInUp",
+        "direction": "horizontal",
+        "show_parallax": true,
+        "mousewheel_control": false,
+        "pagination": false,
+        "pagination_mobile": true,
+        "pagination_style": "swiper-dots-pagination",
+        "pagination_color": "#251f1d",
+        "navigation": true,
+        "navigation_mobile": false,
+        "navigation_style": "number",
+        "navigation_color": "#251f1d",
+        "navigation_bg_color": "",
+        "navigation_border_color": "",
+        "navigation_hover_color": "",
+        "navigation_bg_hover_color": "#808080",
+        "transition_effect": "slide",
+        "transition_speed": "500",
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "loop": true,
+        "touch_move": true,
+        "desktop_overlay": false,
+        "mobile_overlay": false,
+        "overlay_color": "#333333",
+        "overlay_opacity": "0.6",
+        "z_index": "",
+        "title_font_size": 110,
+        "title_line_height": 95,
+        "title_font_weight": "600",
+        "subtitle_font_size": 19,
+        "subtitle_line_height": 32,
+        "subtitle_font_weight": "500",
+        "title_color": "#251f1d",
+        "subtitle_color": "#af6f3d",
+        "description_color": "#645951",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "b8bbea78-3321-4544-9b6a-7b535f036802": {
+      "type": "marquee",
+      "blocks": {
+        "4cda9194-fd9d-4da7-962b-a4757142bc12": {
+          "type": "marquee",
+          "settings": {
+            "marquee_text": "<span>Be Perfect</span>"
+          }
+        },
+        "5119a87d-6d32-4df7-bf9d-68d66a5d0619": {
+          "type": "marquee",
+          "settings": {
+            "marquee_text": "Be Unique"
+          }
+        },
+        "0f1a5b56-e58b-4325-aaf9-02514e08aa1d": {
+          "type": "marquee",
+          "settings": {
+            "marquee_text": "<span>Premium quality</span>"
+          }
+        },
+        "bf656482-da2b-468f-b2f5-bef04867a7db": {
+          "type": "marquee",
+          "settings": {
+            "marquee_text": "Super Soft"
+          }
+        }
+      },
+      "block_order": [
+        "4cda9194-fd9d-4da7-962b-a4757142bc12",
+        "5119a87d-6d32-4df7-bf9d-68d66a5d0619",
+        "0f1a5b56-e58b-4325-aaf9-02514e08aa1d",
+        "bf656482-da2b-468f-b2f5-bef04867a7db"
+      ],
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "show_slider": true,
+        "show_separator": true,
+        "separator_style": "dot-border",
+        "marquee_text_size": 60,
+        "marquee_line_height": 60,
+        "marquee_bg_color": "",
+        "marquee_text_color": "#af6f3d",
+        "separator_color": "#af6f3d",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": "leather-home-marquee"
+      }
+    },
+    "image_with_text_Rwzjxa": {
+      "type": "image-with-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "show_content_container": false,
+        "image": "shopify://shop_images/sb-14thapril-save-extra-d.png",
+        "column_width": "12",
+        "hide_image": true,
+        "block_heading": "We are a lifestyle brand & we believe that great style",
+        "block_sub_heading": "Start from since 1998",
+        "block_description": "<p>Lorem ipsum is simply dolor amet consectetur adipiscing elit eiusmod tempor incididunt ut labore dolore magna ut enim veniam.</p>",
+        "column_width1": "6",
+        "hide_content": false,
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "Explore question",
+        "btn_link": "",
+        "counter_title1": "6M+",
+        "counter_sub_title1": "Happy clients",
+        "counter_title2": "5M+",
+        "counter_sub_title2": "Great products",
+        "counter_title3": "9M+",
+        "counter_sub_title3": "Working hours",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 45,
+        "sub_heading_size": 20,
+        "sub_heading_line_height": 34,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "background_position": "fixed-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "162755718668417b38": {
+      "type": "icon-with-text",
+      "blocks": {
+        "078f23b1-49bb-4cbe-9297-a3157c1aa068": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "box_heading": "Shipping worldwide",
+            "box_sub_heading": "<p>On all orders over $75</p>",
+            "heading_link": ""
+          }
+        },
+        "162755718668417b38-1": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "box_heading": "First purchase 50% off",
+            "box_sub_heading": "<p>First order discount in hongo.</p>",
+            "heading_link": ""
+          }
+        },
+        "162755718668417b38-2": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "box_heading": "30 Days return policy",
+            "box_sub_heading": "<p>You can return any item.</p>",
+            "heading_link": ""
+          }
+        },
+        "6cc60f7b-586b-4d0c-95b6-1e2e5353734e": {
+          "type": "item",
+          "settings": {
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Secure payment",
+            "box_sub_heading": "<p>We ensure secure payment.</p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "078f23b1-49bb-4cbe-9297-a3157c1aa068",
+        "162755718668417b38-1",
+        "162755718668417b38-2",
+        "6cc60f7b-586b-4d0c-95b6-1e2e5353734e"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-3",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 84,
+        "icon_font_size": 40,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 3,
+        "icon_limit_tablet": 2,
+        "icon_limit_mobile": 1,
+        "icon_color": "",
+        "text_color": "",
+        "small_text_color": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 70,
+        "heading_line_height": 70,
+        "sub_heading_size": 18,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "start",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "68a74fa5-27d8-4603-9d61-191b2fea50e8": {
+      "type": "shop-grid",
+      "blocks": {
+        "f3377bf3-3e5c-4dfb-8926-ef57620a20e3": {
+          "type": "shop-grid-style-4",
+          "settings": {
+            "txt_alignment": "left",
+            "box_alignment": "justify-content-end align-items-center",
+            "grid_title": "Leather bag <br> handmade",
+            "grid_small_title": "Make dreams come true",
+            "items_padding": 10,
+            "title_color": "#251f1d",
+            "sub_title_color": "#af6f3d",
+            "button_style": "btn-black",
+            "button_size": "btn-medium",
+            "btn_radius": 4,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "Shop collection",
+            "btn_link": "shopify://collections/coussin-bags",
+            "banner_link": "shopify://collections/small-leather-bags"
+          }
+        }
+      },
+      "block_order": [
+        "f3377bf3-3e5c-4dfb-8926-ef57620a20e3"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "gutter_size": "gutter-extra-large",
+        "grid_overlay": false,
+        "overlay_color": "",
+        "overlay_opacity": 0.5,
+        "grid_title_size": 45,
+        "grid_title_line_height": 45,
+        "grid_subtitle_size": 18,
+        "grid_subtitle_line_height": 35,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "element_id": "",
+        "extra_class_name": ""
+      }
+    },
+    "1630664853e697c287": {
+      "type": "featured-collection",
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "Shop stylish bags",
+        "sub_heading": "This week highlights",
+        "description": "",
+        "title_style": "style-1",
+        "collection": "coussin-bags",
+        "products_limit": 10,
+        "block_type": "grid",
+        "show_view_all": false,
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 0,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "view_btn_text": "Shop collection",
+        "show_load_more_btn": false,
+        "load_more_btn_button_style": "btn-link btn-link-white",
+        "load_more_btn_button_size": "btn-extra-large",
+        "load_more_btn_radius": 0,
+        "load_more_btn_border_width": 0,
+        "load_more_btn_text": "Load more",
+        "products_limit_desktop": 5,
+        "products_limit_mini_desktop": 4,
+        "products_limit_tablet": 3,
+        "products_limit_mobile": 2,
+        "slide_per_view_desktop": 5,
+        "slide_per_view_min_desktop": 3,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 1,
+        "space_slide": 15,
+        "transition_speed": "500",
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "show_navigation": true,
+        "loop": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 38,
+        "heading_line_height": 42,
+        "sub_heading_size": 16,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    },
+    "e1220c4f-ea4e-4205-b371-eb0c412d57b2": {
+      "type": "product-slider",
+      "blocks": {
+        "e20b7045-32db-421e-af53-4aa8f2d63653": {
+          "type": "product",
+          "settings": {
+            "product": "daisy-canvas-backpack"
+          }
+        },
+        "c0395561-68a1-4edc-9d03-b938165636cc": {
+          "type": "product",
+          "settings": {
+            "product": "women-s-tote-bag"
+          }
+        },
+        "e6ae036f-b825-4f66-b6f9-88ce19537b9c": {
+          "type": "product",
+          "settings": {
+            "product": "monochrome-backpack"
+          }
+        }
+      },
+      "block_order": [
+        "e20b7045-32db-421e-af53-4aa8f2d63653",
+        "c0395561-68a1-4edc-9d03-b938165636cc",
+        "e6ae036f-b825-4f66-b6f9-88ce19537b9c"
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "Premium bags",
+        "sub_heading": "The luxury collections",
+        "description": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 38,
+        "heading_line_height": 43,
+        "sub_heading_size": 15,
+        "sub_heading_line_height": 26,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "d9ab3145-2d2f-460b-9574-c1d762472e27": {
+      "type": "featured-collection",
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "Month's popular",
+        "sub_heading": "Genuine leather",
+        "description": "",
+        "title_style": "style-1",
+        "collection": "maxi-bags",
+        "products_limit": 5,
+        "block_type": "slider",
+        "show_view_all": false,
+        "button_style": "btn-black-border border-opacity",
+        "button_size": "btn-medium",
+        "btn_radius": 32,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "view_btn_text": "View All",
+        "show_load_more_btn": false,
+        "load_more_btn_button_style": "btn-black-border border-opacity",
+        "load_more_btn_button_size": "btn-medium",
+        "load_more_btn_radius": 0,
+        "load_more_btn_border_width": 2,
+        "load_more_btn_text": "Load more",
+        "products_limit_desktop": 5,
+        "products_limit_mini_desktop": 5,
+        "products_limit_tablet": 3,
+        "products_limit_mobile": 2,
+        "slide_per_view_desktop": 5,
+        "slide_per_view_min_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "transition_speed": "500",
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "show_navigation": false,
+        "loop": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 38,
+        "heading_line_height": 42,
+        "sub_heading_size": 16,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    },
+    "eabd8035-05e4-4aa2-80ea-9e8d4dfe51c6": {
+      "type": "separator",
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "border_height": 1,
+        "border_pt": 0,
+        "border_pb": 0,
+        "border_bg_color": "#e9e9e8",
+        "section_bg_color": "",
+        "section_gradient": ""
+      }
+    },
+    "d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62": {
+      "type": "client-logo",
+      "blocks": {
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-0": {
+          "type": "logo",
+          "settings": {
+            "link": "shopify://collections/exotic-leather-bags"
+          }
+        },
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-1": {
+          "type": "logo",
+          "settings": {
+            "link": "shopify://collections/flap-bags"
+          }
+        },
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-2": {
+          "type": "logo",
+          "settings": {
+            "link": "shopify://collections/suite-collection"
+          }
+        },
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-3": {
+          "type": "logo",
+          "settings": {
+            "link": "shopify://collections/maxi-bags"
+          }
+        },
+        "1ca388bc-a588-406e-a1f4-799036296a4c": {
+          "type": "logo",
+          "settings": {
+            "link": "shopify://collections/shopping-bags"
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-0",
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-1",
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-2",
+        "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-3",
+        "1ca388bc-a588-406e-a1f4-799036296a4c"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "brand_type": "grid",
+        "logo_limit_desktop": 5,
+        "logo_limit_mini_desktop": 5,
+        "logo_limit_tablet": 3,
+        "logo_limit_mobile": 2,
+        "slide_per_view_desktop": 5,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 1,
+        "space_slide": 15,
+        "show_magic_cursor": false,
+        "magic_cursor_color_scheme": "base",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "35d6e34f-f057-47e8-929d-110cca0a9e48": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-0": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
+            "author_name": "Jonsan donner",
+            "designation": "Harley davidson",
+            "testimonial_product": "nylon-shoulder-bag",
+            "media_bg": "#f4f2f3"
+          }
+        },
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-1": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "Lorem ipsum is industry standard simply dummy text of printing typesetting industry.",
+            "author_name": "Herman miller",
+            "designation": "Ralph lauren",
+            "testimonial_product": "embellished-tote-bag",
+            "media_bg": "#f4f2f3"
+          }
+        },
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-2": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
+            "author_name": "Mackangy ree",
+            "designation": "Tommy hilfiger",
+            "testimonial_product": "shoulder-bag-with-chain",
+            "media_bg": "#f4f2f3"
+          }
+        },
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-3": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "Lorem ipsum is industry standard simply dummy text of printing typesetting industry.",
+            "author_name": "Shoko mugikura",
+            "designation": "Armani exchange",
+            "testimonial_product": "crossbody-style-bag",
+            "media_bg": "#f4f2f3"
+          }
+        },
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-4": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
+            "author_name": "Herman miller",
+            "designation": "Tumi holdings",
+            "testimonial_product": "shoulder-bagpack",
+            "media_bg": "#f4f2f3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-0",
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-1",
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-2",
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-3",
+        "template--16017079468225__35d6e34f-f057-47e8-929d-110cca0a9e48-16786987097918c758-4"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "Happy customer words",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-2",
+        "show_magic_cursor": true,
+        "magic_cursor_color_scheme": "dark",
+        "transition_speed": "500",
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "loop": true,
+        "touch_move": true,
+        "show_navigation": true,
+        "products_limit_desktop": 2.4,
+        "products_limit_mini_desktop": 2,
+        "products_limit_tablet": 1.5,
+        "products_limit_mobile": 1,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "#efebe9",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "f55637a2-1b79-4c37-b19e-ac7f4af92129": {
+      "type": "fancy-heading",
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "fancy_text": "customer review",
+        "fancy_text_type": "fill-text",
+        "fancy_text_size": 180,
+        "fancy_text_lh_size": 180,
+        "text_letter_spacing": 0,
+        "font_weight": "600",
+        "fancy_text_bd_size": 45,
+        "section_show": true,
+        "section_bg_color": "#efebe9",
+        "section_gradient": "",
+        "fancy_text_color": "#e5dfdb",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "162756150392c08718": {
+      "type": "featured-blog",
+      "settings": {
+        "container_type": "container",
+        "heading": "Recent articles",
+        "sub_heading": "Latest news",
+        "description": "",
+        "title_style": "style-1",
+        "blog": "leather",
+        "show_tags_category": "category",
+        "blog_show_date": false,
+        "blog_show_author": true,
+        "blog_show_excerpt": false,
+        "truncate_excerpt": true,
+        "truncate_word": "8",
+        "date_format": "%d %B %Y",
+        "show_view_all": false,
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 0,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "view_btn_text": "View All",
+        "post_limit_desktop": 4,
+        "post_limit_mini_desktop": 3,
+        "post_limit_tablet": 2,
+        "post_limit_mobile": 1,
+        "post_limit": 4,
+        "use_default_section_typography": true,
+        "section_heading_size": 38,
+        "heading_line_height": 42,
+        "sub_heading_size": 16,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    },
+    "75d56f60-8f24-4e64-acad-68179ef3f872": {
+      "type": "separator",
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "border_height": 1,
+        "border_pt": 0,
+        "border_pb": 0,
+        "border_bg_color": "#e9e9e8",
+        "section_bg_color": "",
+        "section_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "5310f0dd-15f1-4134-a728-485c3f1ef44e",
+    "b8bbea78-3321-4544-9b6a-7b535f036802",
+    "image_with_text_Rwzjxa",
+    "162755718668417b38",
+    "68a74fa5-27d8-4603-9d61-191b2fea50e8",
+    "1630664853e697c287",
+    "e1220c4f-ea4e-4205-b371-eb0c412d57b2",
+    "d9ab3145-2d2f-460b-9574-c1d762472e27",
+    "eabd8035-05e4-4aa2-80ea-9e8d4dfe51c6",
+    "d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62",
+    "35d6e34f-f057-47e8-929d-110cca0a9e48",
+    "f55637a2-1b79-4c37-b19e-ac7f4af92129",
+    "162756150392c08718",
+    "75d56f60-8f24-4e64-acad-68179ef3f872"
+  ]
+}

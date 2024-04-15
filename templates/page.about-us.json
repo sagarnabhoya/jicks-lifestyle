@@ -1,0 +1,377 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-2",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": true,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "extra-small-screen",
+        "content_alignment": "center",
+        "content_color_style": "dark-style",
+        "banner_bg_color": "",
+        "banner_image": "shopify://shop_images/demo-leather-page-title-img-01.jpg"
+      }
+    },
+    "35e1be64-b740-4daf-8eb3-6c643d0b122a": {
+      "type": "image-with-text-5",
+      "blocks": {
+        "760e0270-a6e5-4a02-9e95-3d2d647fed94": {
+          "type": "content",
+          "settings": {
+            "content_heading": "We are most valuable brand in the world.",
+            "content_subheading": "About our brand",
+            "content_column_width": "4",
+            "button_style": "btn-black",
+            "button_size": "btn-medium",
+            "btn_radius": 4,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "Shop products",
+            "btn_link": "shopify://collections/flap-bags",
+            "icon_name": "bi-patch-check-fill",
+            "award_text": "2022 best luxury brand awards in the world.",
+            "icon_color": "#af6f3d",
+            "icon_background_color": "#fff0e4"
+          }
+        },
+        "4a0cdd11-339c-4358-ad6e-8505bcf80e23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/demo-leather-about-img-01.jpg",
+            "image_column_width": "5"
+          }
+        },
+        "adb3e0da-8216-4366-a34c-22d87639c0ae": {
+          "type": "content_with_image",
+          "settings": {
+            "content_sub_title": "We are providing genuine leather.",
+            "content_description": "Lorem ipsum is simply dummy text of printing and  typesetting industry ipsum been industry standard dummy text ever since unknown.",
+            "content_image": "shopify://shop_images/demo-leather-about-img-02.jpg",
+            "content_sub_title_color": "#262626",
+            "content_with_image_column_width": "3"
+          }
+        }
+      },
+      "block_order": [
+        "760e0270-a6e5-4a02-9e95-3d2d647fed94",
+        "4a0cdd11-339c-4358-ad6e-8505bcf80e23",
+        "adb3e0da-8216-4366-a34c-22d87639c0ae"
+      ],
+      "settings": {
+        "container_type": "container",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 18,
+        "sub_heading_line_height": 26,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "pb-0",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "241522f8-bf05-4a51-a26f-368ffbe1ae09": {
+      "type": "client-logo",
+      "blocks": {
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-0": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify://shop_images/demo-leather-brand-01.png",
+            "link": "shopify://collections/coussin-bags"
+          }
+        },
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-1": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify://shop_images/demo-leather-brand-02.png",
+            "link": "shopify://collections/maxi-bags"
+          }
+        },
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-2": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify://shop_images/demo-leather-brand-03.png",
+            "link": "shopify://collections/shopping-bags"
+          }
+        },
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-3": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify://shop_images/demo-leather-brand-04.png",
+            "link": "shopify://collections/exotic-leather-bags"
+          }
+        },
+        "fdbec96e-a656-4f33-b8b3-a712c069b627": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify://shop_images/demo-leather-brand-05.png",
+            "link": "shopify://collections/shopping-bags"
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-0",
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-1",
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-2",
+        "template--16017079533761__241522f8-bf05-4a51-a26f-368ffbe1ae09-16690897121a62cd8e-3",
+        "fdbec96e-a656-4f33-b8b3-a712c069b627"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "brand_type": "grid",
+        "logo_limit_desktop": 5,
+        "logo_limit_mini_desktop": 5,
+        "logo_limit_tablet": 3,
+        "logo_limit_mobile": 2,
+        "slide_per_view_desktop": 5,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 1,
+        "space_slide": 15,
+        "show_magic_cursor": false,
+        "magic_cursor_color_scheme": "base",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "18f743bb-6fb7-4c99-8cee-d73f2599a44f": {
+      "type": "video",
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "poster_image": "shopify://shop_images/demo-leather-video-img-01.jpg",
+        "video_url": "https://www.youtube.com/watch?v=CiQovCRvvm0",
+        "title": "",
+        "content_text": "How are hongo bags made? Have a look.",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 45,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "cd7a87ca-8bce-436c-b2b9-a7fd615cb142": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-0": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-05.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Eco friendly product",
+            "box_sub_heading": "",
+            "heading_link": ""
+          }
+        },
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-1": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-06.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Long stitchline leather",
+            "box_sub_heading": "",
+            "heading_link": ""
+          }
+        },
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-2": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-07.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Premium finish quality",
+            "box_sub_heading": "",
+            "heading_link": ""
+          }
+        },
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-3": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-08.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Finest leather material",
+            "box_sub_heading": "",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-0",
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-1",
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-2",
+        "template--16017079533761__cd7a87ca-8bce-436c-b2b9-a7fd615cb142-16690909387024d5ae-3"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 19,
+        "title_line_height": 25,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 81,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 4,
+        "icon_limit_tablet": 2,
+        "icon_limit_mobile": 1,
+        "icon_color": "",
+        "text_color": "",
+        "small_text_color": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": "right-separator"
+      }
+    },
+    "42a5ece7-4e36-4501-a3ca-7af68f4a867d": {
+      "type": "separator",
+      "settings": {
+        "container_type": "container-fluid",
+        "border_height": 1,
+        "border_pt": 0,
+        "border_pb": 0,
+        "border_bg_color": "#e9e9e8",
+        "section_bg_color": ""
+      }
+    },
+    "ce4a4738-4a37-426c-a7f6-a12169684462": {
+      "type": "testimonial",
+      "blocks": {
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-0": {
+          "type": "testimonial-item",
+          "settings": {
+            "title": "Great delivery services",
+            "descripition": "If peace had a smell,it would be the smell of a library full of old, leather bound books.",
+            "author_img": "shopify://shop_images/avtar-01.jpg",
+            "author_name": "Herman miller",
+            "rating": 5,
+            "designation": "Lorem Ipsum"
+          }
+        },
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-1": {
+          "type": "testimonial-item",
+          "settings": {
+            "title": "Excellent service",
+            "descripition": "The leather community is largely anarchistic and shares a healthy distrust of power and arrogance.",
+            "author_img": "shopify://shop_images/avtar-02.jpg",
+            "author_name": "Jeremy smith",
+            "rating": 5,
+            "designation": "Lorem Ipsum"
+          }
+        },
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-2": {
+          "type": "testimonial-item",
+          "settings": {
+            "title": "Best quality product",
+            "descripition": "There is definitely something sexy about a girl with an attitude and a pair of leather pants.",
+            "author_img": "shopify://shop_images/avtar-03.jpg",
+            "author_name": "Johncy parker",
+            "rating": 5,
+            "designation": "Lorem Ipsum"
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-0",
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-1",
+        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-2"
+      ],
+      "settings": {
+        "container_type": "container",
+        "show_content_container": false,
+        "heading_title": "What our valuable customer are saying.",
+        "app_logo": "shopify://shop_images/demo-furniture-services-01.png",
+        "footer_text": "More then 30000+ people trusting hongo store.",
+        "footer_alignment": "center",
+        "content_option": "rating",
+        "box_limit_desktop": 3,
+        "box_limit_mini_desktop": 3,
+        "box_limit_tablet": 2,
+        "box_limit_mobile": 1,
+        "title_fontsize": 45,
+        "title_lineheight": 45,
+        "padding_top": "small-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "35e1be64-b740-4daf-8eb3-6c643d0b122a",
+    "241522f8-bf05-4a51-a26f-368ffbe1ae09",
+    "18f743bb-6fb7-4c99-8cee-d73f2599a44f",
+    "cd7a87ca-8bce-436c-b2b9-a7fd615cb142",
+    "42a5ece7-4e36-4501-a3ca-7af68f4a867d",
+    "ce4a4738-4a37-426c-a7f6-a12169684462"
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-2",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": true,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "extra-small-screen",
+        "content_alignment": "center",
+        "content_color_style": "dark-style",
+        "banner_bg_color": "",
+        "banner_image": "shopify://shop_images/demo-leather-page-title-img-01.jpg"
+      }
+    },
+    "e07b94bd-6d1d-4a26-b500-7a14fe88827e": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-0": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-09.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Hongo store locator",
+            "box_sub_heading": "<p>401 Broadway, 24th Floor </p><p>New York, NY 10013</p>",
+            "heading_link": ""
+          }
+        },
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-1": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-11.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "How can we help?",
+            "box_sub_heading": "<p><a href=\"mailto:sales@yourdomain.com\">sales@yourdomain.com</a></p><p><a href=\"mailto:info@yourdomain.com\">info@yourdomain.com</a></p>",
+            "heading_link": ""
+          }
+        },
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-2": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-10.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Call us directly",
+            "box_sub_heading": "<p>Phone: <a href=\"tel:1-800-222-000\">1-800-222-000</a></p><p>Fax: <a href=\"tel:1-800-222-002\">1-800-222-002</a> </p>",
+            "heading_link": ""
+          }
+        },
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-3": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-12.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Join our team",
+            "box_sub_heading": "<p><a href=\"mailto:hire@yourdomain.com\">hire@yourdomain.com</a></p><p><a href=\"mailto:hr@yourdomain.com\">hr@yourdomain.com</a></p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-0",
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-1",
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-2",
+        "template--16017079599297__e07b94bd-6d1d-4a26-b500-7a14fe88827e-16690950444aba7178-3"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "top-icon",
+        "content_alignment": "center",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 5,
+        "sub_title_width": 80,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 66,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 4,
+        "icon_limit_tablet": 3,
+        "icon_limit_mobile": 1,
+        "icon_color": "",
+        "text_color": "",
+        "small_text_color": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "1634202562662e04bc": {
+      "type": "map",
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "map_height": "large-screen",
+        "latitude": "-37.817240",
+        "longitude": "144.955820",
+        "style": "silver",
+        "zoom": 13,
+        "marker_type": "image",
+        "marker_image": "shopify://shop_images/demo-leather-map-icon-img.png",
+        "infowindow_html": "<div class=\"infowindow\">\n<strong class=\"title d-inline-block alt-font\">Hongo store</strong><p>16122 Collins street, Melbourne, Australia</p>\n</div><div class=\"google-maps-link alt-font\"> <a aria-label=\"View larger map\" target=\"_blank\" jstcache=\"31\" href=\"https://maps.google.com/maps?ll=-37.81721,144.955928&z=13&t=m&hl=en-US&gl=IN&mapclient=embed&cid=13153204942596594449\" jsaction=\"mouseup:placeCard.largerMap\">VIEW LARGER MAP</a>\n</div>",
+        "infowindow_default_open": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "#262626",
+        "section_sub_heading_color": "#262626",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "container_type": "container",
+        "title": "",
+        "sub_title": "",
+        "show_icon": true,
+        "show_social_icon": false,
+        "social_type": "social-icon-only",
+        "social_style": "dark",
+        "social_title": "Follow us:",
+        "block_column_width": "4",
+        "title_fontsize": 36,
+        "title_lineheight": 50,
+        "subtitle_fontsize": 19,
+        "subtitle_lineheight": 30,
+        "form_bg": "shopify://shop_images/demo-leather-contact-img-01.jpg",
+        "image_column_width": "6",
+        "form_title": "Let's talk about you.",
+        "form_sub_title": "Hello what's your mind?",
+        "show_button_text": false,
+        "show_button_arrrow": false,
+        "show_form_lable": false,
+        "content_column_width": "5",
+        "form_title_fontsize": 45,
+        "form_title_lineheight": 45,
+        "form_subtitle_fontsize": 18,
+        "form_subtitle_lineheight": 26,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "f5cc1ec6-9217-43be-b806-2be6a5aba4c6": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-0": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-01.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Shipping worldwide",
+            "box_sub_heading": "<p>On all orders over $75</p>",
+            "heading_link": ""
+          }
+        },
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-1": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-02.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "First purchase 50% off",
+            "box_sub_heading": "<p>First order discount in hongo.</p>",
+            "heading_link": ""
+          }
+        },
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-2": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-03.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "30 Days return policy",
+            "box_sub_heading": "<p>You can return any item.</p>",
+            "heading_link": ""
+          }
+        },
+        "e8717249-32a2-4ea2-b77b-1b04b43e3ea7": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/demo-leather-img-13.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Payment secure",
+            "box_sub_heading": "<p>We ensure secure payment.</p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-0",
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-1",
+        "template--16017079599297__f5cc1ec6-9217-43be-b806-2be6a5aba4c6-16690960473759a849-2",
+        "e8717249-32a2-4ea2-b77b-1b04b43e3ea7"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 84,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 3,
+        "icon_limit_tablet": 2,
+        "icon_limit_mobile": 1,
+        "icon_color": "",
+        "text_color": "",
+        "small_text_color": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "e07b94bd-6d1d-4a26-b500-7a14fe88827e",
+    "1634202562662e04bc",
+    "form",
+    "f5cc1ec6-9217-43be-b806-2be6a5aba4c6"
+  ]
+}
