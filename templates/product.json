@@ -238,6 +238,7 @@
         },
         "additional_information": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "heading": "Additional information",
             "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name</th><td>{{ product.title }}</td></tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU</th><td>{{ first_variant.sku }}</td></tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor</th><td>{{ product.vendor }}</td></tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle</th><td> {{ product.metafields.descriptors.subtitle.value }} </td></tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}</th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              </td>\n            </tr>\n        {%- endfor -%}\n    </tbody>\n</table>"
@@ -247,7 +248,7 @@
           "type": "custom",
           "settings": {
             "heading": "Shipping & return",
-            "tab_content": "<h6 class=\"alt-font\">Returns policy</h6>\n<ul>\n<li>Dispatch: Within 24 Hours</li>\n<li>Free shipping across all products on a minimum purchase of $50.</li>\n<li>International delivery time - 7-10 business days</li>\n<li>Cash on delivery might be available</li>\n<li>Easy 30 days returns and exchanges</li>\n</ul>\n<h6 class=\"alt-font\">Shipping policy</h6>\n<p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur. Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur.</p>",
+            "tab_content": "<h6 class=\"alt-font\">Returns policy</h6>\n<ul>\n<li>Dispatch: Within 24 Hours</li>\n<li>Free shipping across all products.</li>\n<li>Domestic delivery time - 7-10 business days</li>\n<li>Cash on delivery might be available</li>\n<li>Easy 30 days returns and exchanges</li>\n</ul>\n<h6 class=\"alt-font\">Shipping policy</h6>\n<p>When purchasing our products, please take a moment to carefully review our Shipping & Delivery Policy. This policy applies to all orders placed with us.\n</p><ul>\n<li>\n<b>\nShipping & Delivery Options:</b> We offer a variety of shipping options. In some cases, a third-party supplier may manage our inventory and handle the shipping process for your products.</li>\n<li>\n<b>\nFree Shipping:</b> Enjoy free shipping on all orders.</li>\n<li>\n<b>\nInternational Delivery: </b>Unfortunately, we do not offer international shipping at this time.</li>\n<li>\n<b>\nReturns:</b> If you have any questions about returns, please refer to our detailed Return Policy: <a href=\"/policies/refund-policy\" target=\"_blank\">Jick’s Lifestyle Return Policy.</a>\n</li>\n</ul>",
             "content_page": ""
           }
         },
