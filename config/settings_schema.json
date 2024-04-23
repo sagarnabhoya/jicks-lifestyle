@@ -1,45 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Hongo",
-    "theme_author": "ThemeZaa",
-    "theme_version": "1.5",
+    "theme_name": "SW",
+    "theme_author": "ShopifyWale",
+    "theme_version": "1.0",
     "theme_documentation_url": "https://hongoshopify.themezaa.com/documentation/",
     "theme_support_url": "https://www.themezaa.com/support/"
-  },
-  {
-    "name": "Purchase code",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Please click \"Save\" button."
-      },
-      {
-        "type": "select",
-        "id": "purchase_action",
-        "label": "Purchase code action",
-        "options": [
-          {
-            "value": "active",
-            "label": "Activate purchase code"
-          },
-          {
-            "value": "remove",
-            "label": "Remove purchase code"
-          }
-        ],
-        "default": "active"
-      },
-      {
-        "type": "textarea",
-        "id": "purchase_code",
-        "label": "Purchase code"
-      },
-      {
-        "type": "paragraph",
-        "content": "[Where is my purchase code?](https://hongoshopify.themezaa.com/documentation/free-support/#:~:text=How%20to%20find%20your%20purchase%20code%3F)"
-      }
-    ]
   },
   {
     "name": "General",

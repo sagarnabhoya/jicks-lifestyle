@@ -99,7 +99,7 @@
               {%- if wrapper_class != '' -%}
                 <div class="{{ wrapper_class }} h-100">
               {%- endif -%}
-                <div class="row {{ item.box_alignment }} h-100">
+                <div class="row {{ item.box_alignment }} {% if block.settings.mblTxtSpc != blank %}sw-mbl-topCntr{% endif %} h-100">
                   <div class="col-md-{{ section.settings.column_width }} hongo-slider-typography-wrap d-flex flex-column">
                     <div class="hongo-slider-text-wrap {% if section.settings.slider_effect != 'no-effect' %}slide-animation {{ section.settings.slider_effect }}{% endif %} text-{{ item.txt_alignment }}">
                       {%- if block.settings.icon_image != blank -%}
@@ -361,7 +361,7 @@
   }
   @media (max-width: 575px) {
     .section-{{ section.id }} .hongo-slider-typography-wrap .title {      
-      font-size: var(--font_size_plus36);
+      font-size: var(--font_size_plus26);
       line-height: var(--font_size_plus30);
     }
     .section-{{ section.id }} .hongo-slider-typography-wrap .subtitle {
@@ -1118,6 +1118,12 @@
               "label": "Right bottom"
             }
           ]
+        },
+        {
+          "type":"checkbox",
+          "id": "mblTxtSpc",
+          "label": "Enable Separate Mobile Space",
+          "default":true
         },
         {
           "type": "header",
