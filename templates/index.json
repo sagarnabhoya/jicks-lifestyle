@@ -7,12 +7,13 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Untitled-1.jpg",
-            "mobile_image": "shopify://shop_images/Untitled-2.jpg",
+            "mobile_image": "shopify://shop_images/Banner_1_1_mbl.jpg",
             "title": "Ultimate <br> Comfort",
             "subtitle": "",
             "description": "Premium men’s underwear for all-day ease.",
             "txt_alignment": "end",
             "box_alignment": "justify-content-end align-items-center",
+            "mblTxtSpc": true,
             "button_style": "btn-custom",
             "button_size": "btn-large",
             "btn_radius": 4,
@@ -27,12 +28,13 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/banner_3_1.jpg",
-            "mobile_image": "shopify://shop_images/Banner_3_mbl.jpg",
+            "mobile_image": "shopify://shop_images/Banner_3_1_mbl.jpg",
             "title": "Step<br> Comfort",
             "subtitle": "",
             "description": "Premium socks for ultimate ease.",
             "txt_alignment": "end",
             "box_alignment": "justify-content-end align-items-center",
+            "mblTxtSpc": true,
             "button_style": "btn-custom",
             "button_size": "btn-large",
             "btn_radius": 4,
@@ -47,12 +49,13 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Banner_2_3d4336d1-7294-4f17-ac35-dd32cae9ac7b.jpg",
-            "mobile_image": "shopify://shop_images/Banner_2_mbl.jpg",
+            "mobile_image": "shopify://shop_images/Banner_2_1_mbl.jpg",
             "title": "Style &<br> Comfort",
             "subtitle": "",
             "description": "The perfect blend in our exclusive line.",
             "txt_alignment": "left",
             "box_alignment": "justify-content-start align-items-center",
+            "mblTxtSpc": true,
             "button_style": "btn-custom",
             "button_size": "btn-large",
             "btn_radius": 4,
@@ -304,6 +307,7 @@
           "type": "banner_image",
           "settings": {
             "banner_img": "shopify://shop_images/1_dd5f26a5-2619-478a-82e4-c41ec0dbc9c8.jpg",
+            "mbl_img": "shopify://shop_images/Artboard_1_3926bfff-4c9e-4ce2-bcdf-e41ce91b6a75.jpg",
             "banner_url": ""
           }
         },
@@ -311,6 +315,7 @@
           "type": "banner_image",
           "settings": {
             "banner_img": "shopify://shop_images/2.jpg",
+            "mbl_img": "shopify://shop_images/Artboard_1_copy_21155f95-ee64-42c5-8011-c143fc615cc8.jpg",
             "banner_url": ""
           }
         }
@@ -745,7 +750,7 @@
         "sub_heading": "Latest news",
         "description": "",
         "title_style": "style-1",
-        "blog": "leather",
+        "blog": "",
         "show_tags_category": "category",
         "blog_show_date": false,
         "blog_show_author": true,

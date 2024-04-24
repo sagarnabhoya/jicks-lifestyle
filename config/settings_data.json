@@ -1,7 +1,5 @@
 {
   "current": {
-    "purchase_action": "active",
-    "purchase_code": "",
     "scroll_to_top": true,
     "enable_login_price": false,
     "favicon": "shopify://shop_images/favicon.png",
@@ -182,6 +180,8 @@
     "checkout_accent_color": "#232323",
     "checkout_button_color": "#232323",
     "checkout_error_color": "#c72d2d",
+    "purchase_action": "active",
+    "purchase_code": "",
     "giftwrap_charge_type": "per_product",
     "accept_cookies_text": "Accept",
     "lable1_color": "#fff",
@@ -591,11 +591,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "31f85811-985d-45fb-9ff5-ff6810d47c3e": {
-            "type": "menu",
+          "logowithtext_yFM9fV": {
+            "type": "logowithtext",
             "settings": {
-              "heading": "Categories",
-              "selected_menu": "",
+              "logo": "shopify://shop_images/logo_f3d94b6a-12c0-409e-be9d-e2866e48a35b.png",
+              "logo_image_width": 125,
+              "content_text": "A-246, Amrakunj Soc, Savaliya Circle,Surat, Gujarat 395010",
+              "phone": "99999 99999",
+              "email": "support@jickslifestyle.in",
+              "show_social_icon": false,
+              "social_type": "social-icon-with-text",
+              "social_style": "dark",
               "column_width": "3"
             }
           },
@@ -619,16 +625,16 @@
             "type": "newsletter",
             "settings": {
               "border_left": false,
-              "newsletter_heading": "Sign up for our newsletter to receive special offers.",
-              "newsletter_sub_heading": "",
-              "show_terms_agreement_contact": true,
+              "newsletter_heading": "Newsletter",
+              "newsletter_sub_heading": "Sign up to receive special offers.",
+              "show_terms_agreement_contact": false,
               "btn_icon_class": "bi bi-envelope",
               "column_width": "3"
             }
           }
         },
         "block_order": [
-          "31f85811-985d-45fb-9ff5-ff6810d47c3e",
+          "logowithtext_yFM9fV",
           "f99a977e-43c2-42c4-8b56-59d27529577e",
           "f33acb5a-d461-425f-b888-5f7e4585e6fb",
           "63a24891-9067-44d8-b958-b7c3bc057eb3"
@@ -639,18 +645,18 @@
           "middle_show_border_bottom": true,
           "show_footer_bottom": true,
           "show_block1": true,
-          "block1_type": "show_html_content",
+          "block1_type": "show_social_media",
           "social_content_alignment": "end",
           "social_type": "social-icon-only",
-          "social_style": "dark",
+          "social_style": "light",
           "social_html_content": "<ul class=\"footer-bottom-menu-link\">\n\t<li class=\"menu-item\"><a class=\"navigation-links\" href=\"/pages/refund-policy\" target=\"_self\">Return policy</a></li>\n\t<li class=\"menu-item\"><a class=\"navigation-links\" href=\"/pages/privacy-policy\" target=\"_self\">Privacy policy</a></li>\n\t<li class=\"menu-item\"><a class=\"navigation-links\" href=\"/pages/term-and-conditions\" target=\"_self\">Payment policy</a></li>\n</ul>",
           "show_block2": true,
           "block2_type": "show_copyright_content",
           "copy_right_logo_width": 105,
           "copy_logo_url": "",
           "copyright_content_alignment": "start",
-          "copyright_text": "<p>© Copyright 2023 Hongo is proudly powered by <a href=\"https://www.themezaa.com/\" target=\"_blank\">ThemeZaa</a></p>",
-          "show_block3": true,
+          "copyright_text": "<p>©2024 Jicks Lifestyle. All Rights Reserved. </p>",
+          "show_block3": false,
           "block3_type": "show_payment_icon",
           "content_position": "center",
           "payment_html_content": "",

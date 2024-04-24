@@ -16,7 +16,7 @@
       {%- for block in section.blocks -%}
         {%- assign item = block.settings -%}
         {%- if section.settings.icon_with_text_styles == 'left-icon' -%}
-          <div class="col text-{{ section.settings.content_alignment }} d-flex justify-content-start align-items-center featurebox featurebox-left-icon">
+          <div class="col text-{{ section.settings.content_alignment }} swiconMbl d-flex justify-content-start align-items-center featurebox featurebox-left-icon">
             {%- if section.settings.icon_option == 'icon' and section.settings.show_icon == true -%}
               {%- if item.icon_name != blank -%}
                 <i
