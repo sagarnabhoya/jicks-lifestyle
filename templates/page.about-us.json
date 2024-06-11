@@ -36,7 +36,7 @@
             "btn_icon_class": "",
             "icon_position": "right-icon",
             "btn_text": "Shop products",
-            "btn_link": "shopify://collections/all-products",
+            "btn_link": "shopify:\/\/collections\/all-products",
             "icon_name": "bi-patch-check-fill",
             "award_text": "Recognized by Flipkart with a Gold Level Certification Sep. 2023",
             "icon_color": "#af6f3d",
@@ -46,7 +46,7 @@
         "4a0cdd11-339c-4358-ad6e-8505bcf80e23": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/S_-09_copy.jpg",
+            "image": "shopify:\/\/shop_images\/S_-09_copy.jpg",
             "image_column_width": "5"
           }
         },
@@ -92,7 +92,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Quality",
-            "box_sub_heading": "<p>Uncompromised Quality Always With <strong>Jicks</strong></p>",
+            "box_sub_heading": "<p>Uncompromised Quality Always With <strong>Jicks<\/strong><\/p>",
             "heading_link": ""
           }
         },
@@ -101,7 +101,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Fabrics",
-            "box_sub_heading": "<p>We Make Sure That The Fabric Used Is Always of Best Quality,</p>",
+            "box_sub_heading": "<p>We Make Sure That The Fabric Used Is Always of Best Quality,<\/p>",
             "heading_link": ""
           }
         },
@@ -110,7 +110,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Fittings",
-            "box_sub_heading": "<p>We Follow The Best Industry Standards for Perfect Fittings.</p>",
+            "box_sub_heading": "<p>We Follow The Best Industry Standards for Perfect Fittings.<\/p>",
             "heading_link": ""
           }
         },
@@ -119,7 +119,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Designs",
-            "box_sub_heading": "<p>We Have Multiple Designs To Choose From</p>",
+            "box_sub_heading": "<p>We Have Multiple Designs To Choose From<\/p>",
             "heading_link": ""
           }
         }
@@ -178,7 +178,7 @@
         "marquee_mwQkgz": {
           "type": "marquee",
           "settings": {
-            "marquee_text": "<span>Be Perfect<span></span></span>"
+            "marquee_text": "<span>Be Perfect<span><\/span><\/span>"
           }
         },
         "marquee_f7aQdF": {
@@ -190,7 +190,7 @@
         "marquee_6RAxqJ": {
           "type": "marquee",
           "settings": {
-            "marquee_text": "<span>Premium quality</span>"
+            "marquee_text": "<span>Premium quality<\/span>"
           }
         },
         "marquee_DyBWyi": {
@@ -248,11 +248,11 @@
         "rating_text": "Top Rating",
         "block_heading": "Benefits of Choosing Jicks",
         "block_sub_heading": "Why Jicks",
-        "block_description": "<p>Jicks lifestyle makes it easier for a man to pick and choose what he wants to wear because we don’t distinguish amongst our products, all of them are the best in business! We mean it, because our fabric is of ulmost importance to us.</p>",
+        "block_description": "<p>Jicks lifestyle makes it easier for a man to pick and choose what he wants to wear because we don’t distinguish amongst our products, all of them are the best in business! We mean it, because our fabric is of ulmost importance to us.<\/p>",
         "column_width1": "5",
         "hide_image_block": true,
         "right_image": true,
-        "image": "shopify://shop_images/S_-03_copy_-_Copy.jpg",
+        "image": "shopify:\/\/shop_images\/S_-03_copy_-_Copy.jpg",
         "column_width": "6",
         "button_style": "btn-black",
         "button_size": "btn-large",
@@ -277,64 +277,93 @@
         "section_class_name": ""
       }
     },
-    "ce4a4738-4a37-426c-a7f6-a12169684462": {
-      "type": "testimonial",
+    "testimonial_slider_KHfQfp": {
+      "type": "testimonial-slider",
       "blocks": {
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-0": {
+        "testimonial_item_DKDNrh": {
           "type": "testimonial-item",
           "settings": {
-            "title": "Great delivery services",
-            "descripition": "If peace had a smell,it would be the smell of a library full of old, leather bound books.",
-            "author_name": "Herman miller",
             "rating": 5,
-            "designation": "Lorem Ipsum"
+            "descripition": "I've been on the lookout for comfortable yet stylish men's underwear and finally found what I was looking for at JicksLifestyle. The fabric is incredibly soft and breathable, perfect for the Indian climate. Definitely going to stock up on more!",
+            "author_name": "Amit Verma",
+            "designation": "from Pune",
+            "testimonial_product": "",
+            "media_bg": ""
           }
         },
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-1": {
+        "testimonial_item_wmKGxQ": {
           "type": "testimonial-item",
           "settings": {
-            "title": "Excellent service",
-            "descripition": "The leather community is largely anarchistic and shares a healthy distrust of power and arrogance.",
-            "author_name": "Jeremy smith",
             "rating": 5,
-            "designation": "Lorem Ipsum"
+            "descripition": "I was pleasantly surprised by the quality of the underwear from JicksLifestyle. The fit is perfect, and they offer some unique designs which are hard to find elsewhere. It's great to see such quality products in the Indian market from Indian manufacturer.",
+            "author_name": "Rohan Gupta",
+            "designation": "from Chennai",
+            "testimonial_product": "",
+            "media_bg": ""
           }
         },
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-2": {
+        "testimonial_item_C9KxQp": {
           "type": "testimonial-item",
           "settings": {
-            "title": "Best quality product",
-            "descripition": "There is definitely something sexy about a girl with an attitude and a pair of leather pants.",
-            "author_name": "Johncy parker",
             "rating": 5,
-            "designation": "Lorem Ipsum"
+            "descripition": "The customer service at JicksLifestyle is top-notch. I had an issue with the size of the underwear I ordered, and they exchanged it with no hassle. The quality and comfort of their products have made me a loyal customer.",
+            "author_name": "Harish Patel",
+            "designation": "from Jaipur",
+            "testimonial_product": "",
+            "media_bg": ""
+          }
+        },
+        "testimonial_item_bMg98D": {
+          "type": "testimonial-item",
+          "settings": {
+            "rating": 5,
+            "descripition": "I've tried several brands for men's underwear, but nothing compares to the comfort and durability I've found with JicksLifestyle's range. The material feels premium and has held up well after numerous washes. What I appreciate the most is the attention to detail in the fit, ensuring there's no discomfort throughout the day. It's clear that JicksLifestyle understands what men look for in good underwear. Highly recommended!",
+            "author_name": "Nikhil Joshi",
+            "designation": "from Mumbai",
+            "testimonial_product": "",
+            "media_bg": ""
           }
         }
       },
       "block_order": [
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-0",
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-1",
-        "template--16017079533761__ce4a4738-4a37-426c-a7f6-a12169684462-166909166486e73824-2"
+        "testimonial_item_DKDNrh",
+        "testimonial_item_wmKGxQ",
+        "testimonial_item_C9KxQp",
+        "testimonial_item_bMg98D"
       ],
       "settings": {
         "container_type": "container",
-        "show_content_container": false,
-        "heading_title": "What our valuable customer are saying.",
-        "footer_text": "",
-        "footer_alignment": "center",
-        "content_option": "rating",
-        "box_limit_desktop": 3,
-        "box_limit_mini_desktop": 3,
-        "box_limit_tablet": 2,
-        "box_limit_mobile": 1,
-        "title_fontsize": 45,
-        "title_lineheight": 45,
-        "padding_top": "pt-0",
-        "padding_bottom": "very-small-section-bottom",
+        "heading": "Happy customer words",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-2",
+        "show_magic_cursor": true,
+        "magic_cursor_color_scheme": "dark",
+        "transition_speed": "500",
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "loop": true,
+        "touch_move": true,
+        "show_navigation": true,
+        "products_limit_desktop": 2.4,
+        "products_limit_mini_desktop": 2,
+        "products_limit_tablet": 1.5,
+        "products_limit_mobile": 1,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "start",
         "section_show": true,
-        "background_position": "cover-background",
         "section_bg_color": "",
         "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
         "section_id": "",
         "section_class_name": ""
       }
@@ -346,7 +375,7 @@
           "type": "faq-item",
           "settings": {
             "question": "Lorem Ipsum is simply dummy text",
-            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.</p>",
+            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.<\/p>",
             "open": false
           }
         },
@@ -354,7 +383,7 @@
           "type": "faq-item",
           "settings": {
             "question": "Lorem Ipsum is simply dummy text",
-            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.</p>",
+            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.<\/p>",
             "open": false
           }
         },
@@ -362,7 +391,7 @@
           "type": "faq-item",
           "settings": {
             "question": "Lorem Ipsum is simply dummy text",
-            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.</p>",
+            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.<\/p>",
             "open": false
           }
         },
@@ -370,7 +399,7 @@
           "type": "faq-item",
           "settings": {
             "question": "Lorem Ipsum is simply dummy text",
-            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.</p>",
+            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.<\/p>",
             "open": false
           }
         },
@@ -378,7 +407,7 @@
           "type": "faq-item",
           "settings": {
             "question": "Lorem Ipsum is simply dummy text",
-            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.</p>",
+            "answer": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit varius felis volutpat tortor sodales sollicitudin dignissim mauris sapien mauris congue risus ullamcorper. Mauris gravida enim id pellentesque vehicula.<\/p>",
             "open": false
           }
         }
@@ -390,11 +419,12 @@
         "faq_item_CYPkz8",
         "faq_item_jTYawp"
       ],
+      "disabled": true,
       "settings": {
         "container_type": "container",
         "heading": "How can we help you?",
         "sub_heading": "",
-        "description": "<p>Frequently asked questions</p>",
+        "description": "<p>Frequently asked questions<\/p>",
         "title_style": "style-1",
         "inactive_icon": "feather-plus",
         "active_icon": "feather-minus",
@@ -424,7 +454,7 @@
     "cd7a87ca-8bce-436c-b2b9-a7fd615cb142",
     "marquee_zj6EQ4",
     "hero_banner_Qg8dJ3",
-    "ce4a4738-4a37-426c-a7f6-a12169684462",
+    "testimonial_slider_KHfQfp",
     "faq_EMPdpV"
   ]
 }

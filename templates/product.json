@@ -55,6 +55,15 @@
             "visitors_time": 10
           }
         },
+        "variant_picker_myxD9E": {
+          "type": "variant_picker",
+          "settings": {
+            "show_size_guide": true,
+            "size_guide_option_label": "Size",
+            "size_guide_button_text": "Size guide",
+            "size_guide_content": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -93,9 +102,9 @@
           "settings": {
             "show_delivery_times": true,
             "deliver_text": "Estimated delivery:",
-            "deliver_days": "10",
-            "show_shipping_text": true,
-            "shipping_text": "<p>Free return within <strong>30 days</strong> of purchase.</p>"
+            "deliver_days": "7",
+            "show_shipping_text": false,
+            "shipping_text": "<p>Free return within <strong>30 days<\/strong> of purchase.<\/p>"
           }
         },
         "61d3394c-f64e-49ec-a0db-31caf6818cb9": {
@@ -109,7 +118,7 @@
         "9c54112d-607b-48ba-9682-f677f8655767": {
           "type": "trust-badge",
           "settings": {
-            "trust_badge_img": "shopify://shop_images/free_shiping_banner.jpg",
+            "trust_badge_img": "shopify:\/\/shop_images\/free_shiping_banner.jpg",
             "trust_badge_width": 500,
             "trust_badge_text": "",
             "trust_badge_position": "flex-column",
@@ -143,7 +152,7 @@
           "disabled": true,
           "settings": {
             "tab_heading": "Shipping & return",
-            "tab_content": "<h6 class=\"alt-font\">Returns policy</h6>\n<ul>\n<li>Dispatch: Within 24 Hours</li>\n<li>Free shipping across all products on a minimum purchase of $50.</li>\n<li>International delivery time - 7-10 business days</li>\n<li>Cash on delivery might be available</li>\n<li>Easy 30 days returns and exchanges</li>\n</ul>\n<h6 class=\"alt-font\">Shipping policy</h6>\n<p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur. Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur.</p>",
+            "tab_content": "<h6 class=\"alt-font\">Returns policy<\/h6>\n<ul>\n<li>Dispatch: Within 24 Hours<\/li>\n<li>Free shipping across all products on a minimum purchase of $50.<\/li>\n<li>International delivery time - 7-10 business days<\/li>\n<li>Cash on delivery might be available<\/li>\n<li>Easy 30 days returns and exchanges<\/li>\n<\/ul>\n<h6 class=\"alt-font\">Shipping policy<\/h6>\n<p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur. Lorem ipsum dolor consectetur adipiscing eiusmod tempor labore dolore magna enim ad minim veniam nostrud. Lorem ipsum dolor consectetur adipiscing. orem ipsum dolor consectetur.<\/p>",
             "open_default": false
           }
         },
@@ -152,7 +161,7 @@
           "disabled": true,
           "settings": {
             "tab_heading": "Additional information",
-            "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name</th><td>{{ product.title }}</td></tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU</th><td>{{ first_variant.sku }}</td></tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor</th><td>{{ product.vendor }}</td></tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle</th><td> {{ product.metafields.descriptors.subtitle.value }} </td></tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}</th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              </td>\n            </tr>\n        {%- endfor -%}\n    </tbody>\n</table>",
+            "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name<\/th><td>{{ product.title }}<\/td><\/tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU<\/th><td>{{ first_variant.sku }}<\/td><\/tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor<\/th><td>{{ product.vendor }}<\/td><\/tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle<\/th><td> {{ product.metafields.descriptors.subtitle.value }} <\/td><\/tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}<\/th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              <\/td>\n            <\/tr>\n        {%- endfor -%}\n    <\/tbody>\n<\/table>",
             "open_default": false
           }
         }
@@ -163,6 +172,7 @@
         "title",
         "1a68a6b8-e72f-49d7-ae7c-8359d42acb1c",
         "0689be55-a76a-49f2-96fa-3e40482179f8",
+        "variant_picker_myxD9E",
         "buy_buttons",
         "c2463fbc-fe64-4ef3-9871-7b5242b3c6df",
         "0c18cfc7-6f8c-4100-9df4-3ec4a3cb4bae",
@@ -201,6 +211,7 @@
     },
     "bought-together": {
       "type": "bought-together",
+      "disabled": true,
       "settings": {
         "container_type": "container",
         "heading": "Frequently bought together",
@@ -241,14 +252,14 @@
           "disabled": true,
           "settings": {
             "heading": "Additional information",
-            "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name</th><td>{{ product.title }}</td></tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU</th><td>{{ first_variant.sku }}</td></tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor</th><td>{{ product.vendor }}</td></tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle</th><td> {{ product.metafields.descriptors.subtitle.value }} </td></tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}</th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              </td>\n            </tr>\n        {%- endfor -%}\n    </tbody>\n</table>"
+            "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name<\/th><td>{{ product.title }}<\/td><\/tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU<\/th><td>{{ first_variant.sku }}<\/td><\/tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor<\/th><td>{{ product.vendor }}<\/td><\/tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle<\/th><td> {{ product.metafields.descriptors.subtitle.value }} <\/td><\/tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}<\/th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              <\/td>\n            <\/tr>\n        {%- endfor -%}\n    <\/tbody>\n<\/table>"
           }
         },
         "0c706291-06fb-4980-8270-bfb7b6c922c0": {
           "type": "custom",
           "settings": {
             "heading": "Shipping & return",
-            "tab_content": "<h6 class=\"alt-font\">Returns policy</h6>\n<ul>\n<li>Dispatch: Within 24 Hours</li>\n<li>Free shipping across all products.</li>\n<li>Domestic delivery time - 7-10 business days</li>\n<li>Cash on delivery might be available</li>\n<li>Easy 30 days returns and exchanges</li>\n</ul>\n<h6 class=\"alt-font\">Shipping policy</h6>\n<p>When purchasing our products, please take a moment to carefully review our Shipping & Delivery Policy. This policy applies to all orders placed with us.\n</p><ul>\n<li>\n<b>\nShipping & Delivery Options:</b> We offer a variety of shipping options. In some cases, a third-party supplier may manage our inventory and handle the shipping process for your products.</li>\n<li>\n<b>\nFree Shipping:</b> Enjoy free shipping on all orders.</li>\n<li>\n<b>\nInternational Delivery: </b>Unfortunately, we do not offer international shipping at this time.</li>\n<li>\n<b>\nReturns:</b> If you have any questions about returns, please refer to our detailed Return Policy: <a href=\"/policies/refund-policy\" target=\"_blank\">Jick’s Lifestyle Return Policy.</a>\n</li>\n</ul>",
+            "tab_content": "<h6 class=\"alt-font\">Returns policy<\/h6>\n<ul>\n<li>Dispatch: Within 24 Hours<\/li>\n<li>Free shipping across all products.<\/li>\n<li>Domestic delivery time - 7-10 business days<\/li>\n<li>Cash on delivery might be available<\/li>\n<li>Easy 30 days returns and exchanges<\/li>\n<\/ul>\n<h6 class=\"alt-font\">Shipping policy<\/h6>\n<p>When purchasing our products, please take a moment to carefully review our Shipping & Delivery Policy. This policy applies to all orders placed with us.\n<\/p><ul>\n<li>\n<b>\nShipping & Delivery Options:<\/b> We offer a variety of shipping options. In some cases, a third-party supplier may manage our inventory and handle the shipping process for your products.<\/li>\n<li>\n<b>\nFree Shipping:<\/b> Enjoy free shipping on all orders.<\/li>\n<li>\n<b>\nInternational Delivery: <\/b>Unfortunately, we do not offer international shipping at this time.<\/li>\n<li>\n<b>\nReturns:<\/b> If you have any questions about returns, please refer to our detailed Return Policy: <a href=\"\/policies\/refund-policy\" target=\"_blank\">Jick’s Lifestyle Return Policy.<\/a>\n<\/li>\n<\/ul>",
             "content_page": ""
           }
         },
@@ -274,46 +285,83 @@
         "element_class": ""
       }
     },
+    "product-related": {
+      "type": "product-related",
+      "settings": {
+        "container_type": "container",
+        "heading": "Related product",
+        "sub_heading": "Leather products",
+        "description": "",
+        "title_style": "style-1",
+        "products_to_show": 4,
+        "slide_per_view_desktop": 4,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "navigation": true,
+        "autoplay": true,
+        "loop": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "#af6f3d",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
     "icon_with_text_wX86rp": {
       "type": "icon-with-text",
       "blocks": {
         "item_CFt6Gb": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/light_weight.png",
+            "image_icon": "shopify:\/\/shop_images\/light_weight.png",
             "icon_name": "bi bi-box-seam",
             "box_heading": "Lightweight",
-            "box_sub_heading": "<p>And Breathable</p>",
+            "box_sub_heading": "<p>And Breathable<\/p>",
             "heading_link": ""
           }
         },
         "item_jD7hpB": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/dry.png",
+            "image_icon": "shopify:\/\/shop_images\/dry.png",
             "icon_name": "bi bi-box-seam",
             "box_heading": "Quick Dry",
-            "box_sub_heading": "<p>Quick Sweat Evaporation</p>",
+            "box_sub_heading": "<p>Quick Sweat Evaporation<\/p>",
             "heading_link": ""
           }
         },
         "item_F3jJtb": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/fresh.png",
+            "image_icon": "shopify:\/\/shop_images\/fresh.png",
             "icon_name": "bi bi-box-seam",
             "box_heading": "Stay Fresh",
-            "box_sub_heading": "<p>Anti-Microbial Properties</p>",
+            "box_sub_heading": "<p>Anti-Microbial Properties<\/p>",
             "heading_link": ""
           }
         },
         "item_DBFHLT": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/quality.png",
+            "image_icon": "shopify:\/\/shop_images\/quality.png",
             "icon_name": "bi bi-box-seam",
             "box_heading": "Built to Last",
-            "box_sub_heading": "<p>Wash After Wash</p>",
+            "box_sub_heading": "<p>Wash After Wash<\/p>",
             "heading_link": ""
           }
         }
@@ -361,43 +409,6 @@
         "section_gradient": "",
         "section_heading_color": "",
         "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_id": "",
-        "section_class_name": ""
-      }
-    },
-    "product-related": {
-      "type": "product-related",
-      "settings": {
-        "container_type": "container",
-        "heading": "Related product",
-        "sub_heading": "Leather products",
-        "description": "",
-        "title_style": "style-1",
-        "products_to_show": 4,
-        "slide_per_view_desktop": 4,
-        "slide_per_view_mini_desktop": 4,
-        "slide_per_view_tablet": 3,
-        "slide_per_view_mobile": 2,
-        "space_slide": 30,
-        "navigation": true,
-        "autoplay": true,
-        "loop": false,
-        "use_default_section_typography": true,
-        "section_heading_size": 45,
-        "heading_line_height": 55,
-        "sub_heading_size": 24,
-        "sub_heading_line_height": 30,
-        "subheading_letter_spacing": 0,
-        "padding_top": "pt-0",
-        "padding_bottom": "small-section-bottom",
-        "heading_alignment": "center",
-        "section_show": true,
-        "background_position": "cover-background",
-        "section_bg_color": "",
-        "section_gradient": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "#af6f3d",
         "section_description_color": "",
         "section_id": "",
         "section_class_name": ""
@@ -514,8 +525,8 @@
     "main",
     "bought-together",
     "product-tabs",
-    "icon_with_text_wX86rp",
     "product-related",
+    "icon_with_text_wX86rp",
     "product-upsell",
     "recent-viewed-products",
     "connect_with_us_eaEFrG"

@@ -6,8 +6,8 @@
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Untitled-1.jpg",
-            "mobile_image": "shopify://shop_images/Banner_1_1_mbl.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_1_1_mbl.jpg",
             "title": "Ultimate <br> Comfort",
             "subtitle": "",
             "description": "Premium men’s underwear for all-day ease.",
@@ -21,14 +21,14 @@
             "btn_icon_class": "",
             "icon_position": "right-icon",
             "btn_text": "Shop collection",
-            "btn_link": "shopify://collections"
+            "btn_link": "shopify:\/\/collections\/men-brief"
           }
         },
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/banner_3_1.jpg",
-            "mobile_image": "shopify://shop_images/Banner_3_1_mbl.jpg",
+            "image": "shopify:\/\/shop_images\/banner_3_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_3_1_mbl.jpg",
             "title": "Step<br> Comfort",
             "subtitle": "",
             "description": "Premium socks for ultimate ease.",
@@ -42,14 +42,14 @@
             "btn_icon_class": "",
             "icon_position": "right-icon",
             "btn_text": "Shop collection",
-            "btn_link": "shopify://collections"
+            "btn_link": "shopify:\/\/collections\/socks"
           }
         },
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Banner_2_3d4336d1-7294-4f17-ac35-dd32cae9ac7b.jpg",
-            "mobile_image": "shopify://shop_images/Banner_2_1_mbl.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_2_3d4336d1-7294-4f17-ac35-dd32cae9ac7b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_2_1_mbl.jpg",
             "title": "Style &<br> Comfort",
             "subtitle": "",
             "description": "The perfect blend in our exclusive line.",
@@ -63,7 +63,7 @@
             "btn_icon_class": "",
             "icon_position": "right-icon",
             "btn_text": "Shop collection",
-            "btn_link": "shopify://collections"
+            "btn_link": "shopify:\/\/collections\/men-trunk"
           }
         }
       },
@@ -131,7 +131,7 @@
         "4cda9194-fd9d-4da7-962b-a4757142bc12": {
           "type": "marquee",
           "settings": {
-            "marquee_text": "<span>Be Perfect</span>"
+            "marquee_text": "<span>Be Perfect<\/span>"
           }
         },
         "5119a87d-6d32-4df7-bf9d-68d66a5d0619": {
@@ -143,7 +143,7 @@
         "0f1a5b56-e58b-4325-aaf9-02514e08aa1d": {
           "type": "marquee",
           "settings": {
-            "marquee_text": "<span>Premium quality</span>"
+            "marquee_text": "<span>Premium quality<\/span>"
           }
         },
         "bf656482-da2b-468f-b2f5-bef04867a7db": {
@@ -171,8 +171,8 @@
         "marquee_text_size": 60,
         "marquee_line_height": 60,
         "marquee_bg_color": "",
-        "marquee_text_color": "#af6f3d",
-        "separator_color": "#af6f3d",
+        "marquee_text_color": "#000000",
+        "separator_color": "#6a8dd4",
         "use_default_section_typography": true,
         "section_heading_size": 45,
         "heading_line_height": 55,
@@ -200,12 +200,12 @@
       "settings": {
         "container_type": "container",
         "show_content_container": false,
-        "image": "shopify://shop_images/offer_banner.jpg",
+        "image": "shopify:\/\/shop_images\/offer_banner.jpg",
         "column_width": "12",
         "hide_image": true,
         "block_heading": "We are a lifestyle brand & we believe that great style",
         "block_sub_heading": "Start from since 1998",
-        "block_description": "<p>Lorem ipsum is simply dolor amet consectetur adipiscing elit eiusmod tempor incididunt ut labore dolore magna ut enim veniam.</p>",
+        "block_description": "<p>Lorem ipsum is simply dolor amet consectetur adipiscing elit eiusmod tempor incididunt ut labore dolore magna ut enim veniam.<\/p>",
         "column_width1": "6",
         "hide_content": false,
         "button_style": "btn-black",
@@ -215,7 +215,7 @@
         "btn_icon_class": "",
         "icon_position": "right-icon",
         "btn_text": "Explore question",
-        "btn_link": "",
+        "btn_link": "shopify:\/\/collections\/underwear",
         "counter_title1": "6M+",
         "counter_sub_title1": "Happy clients",
         "counter_title2": "5M+",
@@ -245,11 +245,11 @@
       "type": "featured-collection",
       "settings": {
         "container_type": "container-fluid",
-        "heading": "Lorem ipsum dolor",
-        "sub_heading": "Lorem ipsum dolor",
+        "heading": "Comfort Redefined",
+        "sub_heading": "Explore Our Latest Men's Shorts Collection!",
         "description": "",
         "title_style": "style-1",
-        "collection": "coussin-bags",
+        "collection": "new-arrivals",
         "products_limit": 8,
         "block_type": "slider",
         "show_view_all": true,
@@ -306,17 +306,17 @@
         "banner_image_6E9bMm": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify://shop_images/1_dd5f26a5-2619-478a-82e4-c41ec0dbc9c8.jpg",
-            "mbl_img": "shopify://shop_images/Artboard_1_3926bfff-4c9e-4ce2-bcdf-e41ce91b6a75.jpg",
-            "banner_url": ""
+            "banner_img": "shopify:\/\/shop_images\/Add_a_heading.png",
+            "mbl_img": "shopify:\/\/shop_images\/Add_a_heading.png",
+            "banner_url": "shopify:\/\/collections\/men-brief"
           }
         },
         "banner_image_FbRp69": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify://shop_images/2.jpg",
-            "mbl_img": "shopify://shop_images/Artboard_1_copy_21155f95-ee64-42c5-8011-c143fc615cc8.jpg",
-            "banner_url": ""
+            "banner_img": "shopify:\/\/shop_images\/Add_a_heading_1.png",
+            "mbl_img": "shopify:\/\/shop_images\/Add_a_heading_1.png",
+            "banner_url": "shopify:\/\/collections\/men-trunk"
           }
         }
       },
@@ -339,40 +339,40 @@
         "078f23b1-49bb-4cbe-9297-a3157c1aa068": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/light_weight.png",
+            "image_icon": "shopify:\/\/shop_images\/light_weight.png",
             "icon_name": "",
             "box_heading": "Lightweight",
-            "box_sub_heading": "<p>And Breathable</p>",
+            "box_sub_heading": "<p>And Breathable<\/p>",
             "heading_link": ""
           }
         },
         "162755718668417b38-1": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/dry.png",
+            "image_icon": "shopify:\/\/shop_images\/dry.png",
             "icon_name": "",
             "box_heading": "StayDry",
-            "box_sub_heading": "<p>Quick Sweat Evaporation</p>",
+            "box_sub_heading": "<p>Quick Sweat Evaporation<\/p>",
             "heading_link": ""
           }
         },
         "162755718668417b38-2": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/fresh.png",
+            "image_icon": "shopify:\/\/shop_images\/fresh.png",
             "icon_name": "",
             "box_heading": "StayFresh",
-            "box_sub_heading": "<p>Anti-Microbial Properties</p>",
+            "box_sub_heading": "<p>Anti-Microbial Properties<\/p>",
             "heading_link": ""
           }
         },
         "6cc60f7b-586b-4d0c-95b6-1e2e5353734e": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/quality.png",
+            "image_icon": "shopify:\/\/shop_images\/quality.png",
             "icon_name": "bi bi-box-seam",
             "box_heading": "Built to Last",
-            "box_sub_heading": "<p>Wash After Wash</p>",
+            "box_sub_heading": "<p>Wash After Wash<\/p>",
             "heading_link": ""
           }
         }
@@ -434,7 +434,7 @@
         "sub_heading": "",
         "description": "",
         "title_style": "style-1",
-        "video_url": "https://www.youtube.com/watch?v=ux4ghS8k8mQ",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ux4ghS8k8mQ",
         "title": "modern fu",
         "content_text": "",
         "use_default_section_typography": true,
@@ -462,8 +462,8 @@
         "banner_image_RzaTKF": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify://shop_images/banner-1.jpg",
-            "banner_url": ""
+            "banner_img": "shopify:\/\/shop_images\/banner-1.jpg",
+            "banner_url": "shopify:\/\/collections\/socks"
           }
         }
       },
@@ -486,11 +486,11 @@
       "type": "featured-collection",
       "settings": {
         "container_type": "container-fluid",
-        "heading": "Lorem ipsum dolor",
-        "sub_heading": "Lorem ipsum dolor",
+        "heading": "Top Picks",
+        "sub_heading": "Best-Selling Stuff You Can't Miss!",
         "description": "",
         "title_style": "style-1",
-        "collection": "coussin-bags",
+        "collection": "best-seller",
         "products_limit": 8,
         "block_type": "slider",
         "show_view_all": true,
@@ -548,10 +548,10 @@
           "type": "testimonial-item",
           "settings": {
             "rating": 5,
-            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
-            "author_name": "Jonsan donner",
-            "designation": "Harley davidson",
-            "testimonial_product": "nylon-shoulder-bag",
+            "descripition": "I've been on the lookout for comfortable yet stylish men's underwear and finally found what I was looking for at JicksLifestyle. The fabric is incredibly soft and breathable, perfect for the Indian climate. Definitely going to stock up on more!",
+            "author_name": "Amit Verma",
+            "designation": "from Pune",
+            "testimonial_product": "",
             "media_bg": "#f4f2f3"
           }
         },
@@ -559,10 +559,10 @@
           "type": "testimonial-item",
           "settings": {
             "rating": 5,
-            "descripition": "Lorem ipsum is industry standard simply dummy text of printing typesetting industry.",
-            "author_name": "Herman miller",
-            "designation": "Ralph lauren",
-            "testimonial_product": "embellished-tote-bag",
+            "descripition": "The range of socks available on JicksLifestyle is impressive. I purchased a few pairs of their socks, and they are fantastic. They stay in place, wick moisture well, and the colors haven't faded even after multiple washes.",
+            "author_name": "Suresh Kumar",
+            "designation": "from Hyderabad",
+            "testimonial_product": "",
             "media_bg": "#f4f2f3"
           }
         },
@@ -570,10 +570,10 @@
           "type": "testimonial-item",
           "settings": {
             "rating": 5,
-            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
-            "author_name": "Mackangy ree",
-            "designation": "Tommy hilfiger",
-            "testimonial_product": "shoulder-bag-with-chain",
+            "descripition": "I was pleasantly surprised by the quality of the underwear from JicksLifestyle. The fit is perfect, and they offer some unique designs which are hard to find elsewhere. It's great to see such quality products in the Indian market from Indian manufacturer.",
+            "author_name": "Rohan Gupta",
+            "designation": "from Chennai",
+            "testimonial_product": "",
             "media_bg": "#f4f2f3"
           }
         },
@@ -581,10 +581,10 @@
           "type": "testimonial-item",
           "settings": {
             "rating": 5,
-            "descripition": "Lorem ipsum is industry standard simply dummy text of printing typesetting industry.",
-            "author_name": "Shoko mugikura",
-            "designation": "Armani exchange",
-            "testimonial_product": "crossbody-style-bag",
+            "descripition": "The customer service at JicksLifestyle is top-notch. I had an issue with the size of the underwear I ordered, and they exchanged it with no hassle. The quality and comfort of their products have made me a loyal customer.",
+            "author_name": "Harish Patel",
+            "designation": "from Jaipur",
+            "testimonial_product": "",
             "media_bg": "#f4f2f3"
           }
         },
@@ -592,10 +592,10 @@
           "type": "testimonial-item",
           "settings": {
             "rating": 5,
-            "descripition": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur.",
-            "author_name": "Herman miller",
-            "designation": "Tumi holdings",
-            "testimonial_product": "shoulder-bagpack",
+            "descripition": "I've tried several brands for men's underwear, but nothing compares to the comfort and durability I've found with JicksLifestyle's range. The material feels premium and has held up well after numerous washes. What I appreciate the most is the attention to detail in the fit, ensuring there's no discomfort throughout the day. It's clear that JicksLifestyle understands what men look for in good underwear. Highly recommended!",
+            "author_name": "Nikhil Joshi",
+            "designation": "from Mumbai",
+            "testimonial_product": "",
             "media_bg": "#f4f2f3"
           }
         }
@@ -669,31 +669,31 @@
         "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-0": {
           "type": "logo",
           "settings": {
-            "link": "shopify://collections/exotic-leather-bags"
+            "link": "shopify:\/\/collections\/exotic-leather-bags"
           }
         },
         "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-1": {
           "type": "logo",
           "settings": {
-            "link": "shopify://collections/flap-bags"
+            "link": "shopify:\/\/collections\/flap-bags"
           }
         },
         "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-2": {
           "type": "logo",
           "settings": {
-            "link": "shopify://collections/suite-collection"
+            "link": "shopify:\/\/collections\/suite-collection"
           }
         },
         "template--16017079468225__d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62-1668578487edf63354-3": {
           "type": "logo",
           "settings": {
-            "link": "shopify://collections/maxi-bags"
+            "link": "shopify:\/\/collections\/maxi-bags"
           }
         },
         "1ca388bc-a588-406e-a1f4-799036296a4c": {
           "type": "logo",
           "settings": {
-            "link": "shopify://collections/shopping-bags"
+            "link": "shopify:\/\/collections\/shopping-bags"
           }
         }
       },
@@ -744,6 +744,7 @@
     },
     "162756150392c08718": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "container_type": "container",
         "heading": "Recent articles",
@@ -805,6 +806,7 @@
     },
     "instagram_feed_8rnkaL": {
       "type": "instagram-feed",
+      "disabled": true,
       "settings": {
         "full_width_nogap": false,
         "container_type": "container-fluid",
@@ -817,7 +819,7 @@
         "label_text": "#Fashionstyle",
         "insta_btn_link": "",
         "instaType": "slider",
-        "footer_subheading": "<p>instagram</p>",
+        "footer_subheading": "<p>instagram<\/p>",
         "count": 6,
         "grid_limit_desktop": 4,
         "grid_limit_mini_desktop": 4,
@@ -859,6 +861,28 @@
         "element_id": "",
         "section_class_name": ""
       }
+    },
+    "171441611064dd8f15": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_rNRkkm": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "margin_top": 24,
+            "margin_bottom": 24,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_rNRkkm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -876,6 +900,7 @@
     "d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62",
     "162756150392c08718",
     "75d56f60-8f24-4e64-acad-68179ef3f872",
-    "instagram_feed_8rnkaL"
+    "instagram_feed_8rnkaL",
+    "171441611064dd8f15"
   ]
 }

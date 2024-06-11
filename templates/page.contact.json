@@ -28,7 +28,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Hongo store locator",
-            "box_sub_heading": "<p>401 Broadway, 24th Floor </p><p>New York, NY 10013</p>",
+            "box_sub_heading": "<p>401 Broadway, 24th Floor <\/p><p>New York, NY 10013<\/p>",
             "heading_link": ""
           }
         },
@@ -37,7 +37,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "How can we help?",
-            "box_sub_heading": "<p><a href=\"mailto:sales@yourdomain.com\">sales@yourdomain.com</a></p><p><a href=\"mailto:info@yourdomain.com\">info@yourdomain.com</a></p>",
+            "box_sub_heading": "<p><a href=\"mailto:sales@yourdomain.com\">sales@yourdomain.com<\/a><\/p><p><a href=\"mailto:info@yourdomain.com\">info@yourdomain.com<\/a><\/p>",
             "heading_link": ""
           }
         },
@@ -46,7 +46,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Call us directly",
-            "box_sub_heading": "<p>Phone: <a href=\"tel:1-800-222-000\">1-800-222-000</a></p><p>Fax: <a href=\"tel:1-800-222-002\">1-800-222-002</a> </p>",
+            "box_sub_heading": "<p>Phone: <a href=\"tel:1-800-222-000\">1-800-222-000<\/a><\/p><p>Fax: <a href=\"tel:1-800-222-002\">1-800-222-002<\/a> <\/p>",
             "heading_link": ""
           }
         },
@@ -55,7 +55,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Join our team",
-            "box_sub_heading": "<p><a href=\"mailto:hire@yourdomain.com\">hire@yourdomain.com</a></p><p><a href=\"mailto:hr@yourdomain.com\">hr@yourdomain.com</a></p>",
+            "box_sub_heading": "<p><a href=\"mailto:hire@yourdomain.com\">hire@yourdomain.com<\/a><\/p><p><a href=\"mailto:hr@yourdomain.com\">hr@yourdomain.com<\/a><\/p>",
             "heading_link": ""
           }
         }
@@ -124,7 +124,7 @@
         "style": "silver",
         "zoom": 13,
         "marker_type": "image",
-        "infowindow_html": "<div class=\"infowindow\">\n<strong class=\"title d-inline-block alt-font\">Hongo store</strong><p>16122 Collins street, Melbourne, Australia</p>\n</div><div class=\"google-maps-link alt-font\"> <a aria-label=\"View larger map\" target=\"_blank\" jstcache=\"31\" href=\"https://maps.google.com/maps?ll=-37.81721,144.955928&z=13&t=m&hl=en-US&gl=IN&mapclient=embed&cid=13153204942596594449\" jsaction=\"mouseup:placeCard.largerMap\">VIEW LARGER MAP</a>\n</div>",
+        "infowindow_html": "<div class=\"infowindow\">\n<strong class=\"title d-inline-block alt-font\">Hongo store<\/strong><p>16122 Collins street, Melbourne, Australia<\/p>\n<\/div><div class=\"google-maps-link alt-font\"> <a aria-label=\"View larger map\" target=\"_blank\" jstcache=\"31\" href=\"https:\/\/maps.google.com\/maps?ll=-37.81721,144.955928&z=13&t=m&hl=en-US&gl=IN&mapclient=embed&cid=13153204942596594449\" jsaction=\"mouseup:placeCard.largerMap\">VIEW LARGER MAP<\/a>\n<\/div>",
         "infowindow_default_open": false,
         "use_default_section_typography": true,
         "section_heading_size": 45,
@@ -161,6 +161,7 @@
         "title_lineheight": 50,
         "subtitle_fontsize": 19,
         "subtitle_lineheight": 30,
+        "form_bg": "shopify:\/\/shop_images\/busy-woman-doing-many-things-same-time.jpg",
         "image_column_width": "6",
         "form_title": "Let's talk about you.",
         "form_sub_title": "Hello what's your mind?",
@@ -189,7 +190,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Shipping worldwide",
-            "box_sub_heading": "<p>On all orders over $75</p>",
+            "box_sub_heading": "<p>On all orders over $75<\/p>",
             "heading_link": ""
           }
         },
@@ -198,7 +199,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "First purchase 50% off",
-            "box_sub_heading": "<p>First order discount in hongo.</p>",
+            "box_sub_heading": "<p>First order discount in hongo.<\/p>",
             "heading_link": ""
           }
         },
@@ -207,7 +208,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "30 Days return policy",
-            "box_sub_heading": "<p>You can return any item.</p>",
+            "box_sub_heading": "<p>You can return any item.<\/p>",
             "heading_link": ""
           }
         },
@@ -216,7 +217,7 @@
           "settings": {
             "icon_name": "bi bi-box-seam",
             "box_heading": "Payment secure",
-            "box_sub_heading": "<p>We ensure secure payment.</p>",
+            "box_sub_heading": "<p>We ensure secure payment.<\/p>",
             "heading_link": ""
           }
         }
