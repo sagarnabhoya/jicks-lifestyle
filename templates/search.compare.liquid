@@ -99,13 +99,13 @@
                   {%- if product.available == true -%}
                     <a href="/cart/add?id={{ selected_variant.id }}" class="btn btn-black btn-small" data-trigger="addtocart" data-variant="{{ selected_variant.id }}">{{ 'templates.search_compare.add_to_cart' | t }}</a>
                   {%- else -%}
-                    <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.search_compare.view_product' | t }}</a>
+                    <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.search_compare.view_product' | t }}</a>
                   {%- endif -%}
                 {%- else -%}
                   {%- if selected_variant.available -%}
-                    <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.search_compare.select_options' | t }}</a>
+                    <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.search_compare.select_options' | t }}</a>
                   {%- else -%}
-                    <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.search_compare.view_product' | t }}</a>
+                    <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.search_compare.view_product' | t }}</a>
                   {%- endif -%}
                 {%- endif -%}
               </td>

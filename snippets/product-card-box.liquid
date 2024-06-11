@@ -49,7 +49,7 @@
         </div>
       {%- else -%}
         <a
-          href="{{ product_card_product.url | default: '#' | within: collection }}"
+          href="{{ product_card_product.url | default: '#'  }}"
           class="d-block"
           aria-label="link"
         >
@@ -82,7 +82,7 @@
       {%- if product_card_product -%}
       {%- assign selected_variant = product_card_product.selected_or_first_available_variant -%}
         {%- if selected_variant.available == false -%}
-          <a class="cart-btn alt-font d-inline-flex justify-content-center align-items-center position-relative sold-btn position-relative" data-trigger="quickview" data-handle="{{ product_card_product.handle }}" href="{{ product_card_product.url | default: '#' | within: collection }}"  class="btn-animation" aria-label="btn">
+          <a class="cart-btn alt-font d-inline-flex justify-content-center align-items-center position-relative sold-btn position-relative" data-trigger="quickview" data-handle="{{ product_card_product.handle }}" href="{{ product_card_product.url | default: '#'  }}"  class="btn-animation" aria-label="btn">
             <i class="feather-shopping-bag"></i>
             <span class="btn-text">{{ 'products.product.Sold_btn' | t }}</span>
           </a>
@@ -98,7 +98,7 @@
       <a href="/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type={{ product_card_product.type | replace:' ','+'}}&sort_by=title-ascending" aria-label="vendor">{{ product_card_product.type }}</a>
     </div>
     <a
-      href="{{ product_card_product.url | default: '#' | within: collection }}"
+      href="{{ product_card_product.url | default: '#'  }}"
       class="product-title alt-font" aria-label="product">
       {{ product_card_product.title | escape }}
     </a>
@@ -169,7 +169,7 @@
                 {%- if product_card_product -%}
                 {%- assign selected_variant = product_card_product.selected_or_first_available_variant -%}
                   {%- if selected_variant.available == false -%}
-                    <a class="sold-btn cart-btn alt-font d-inline-flex justify-content-center align-items-center position-relative" data-trigger="quickview" data-handle="{{ product_card_product.handle }}" href="{{ product_card_product.url | default: '#' | within: collection }}"  class="btn-animation" aria-label="btn">
+                    <a class="sold-btn cart-btn alt-font d-inline-flex justify-content-center align-items-center position-relative" data-trigger="quickview" data-handle="{{ product_card_product.handle }}" href="{{ product_card_product.url | default: '#'  }}"  class="btn-animation" aria-label="btn">
                       <i class="feather-shopping-bag"></i>
                       <span class="btn-text">SOLD</span>
                     </a>

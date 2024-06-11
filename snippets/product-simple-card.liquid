@@ -32,7 +32,7 @@
 <div class="box-inner">
   <div class="product-image position-relative overflow-hidden">
     <a
-      href="{{ product_card_product.url | default: '#' | within: collection }}"
+      href="{{ product_card_product.url | default: '#'  }}"
       class="d-block"
       aria-label="link"
     >
@@ -62,7 +62,7 @@
         {%- render 'product-card-rating-badge', product: product_card_product, review_app : review_app -%}
       </div>
     {%- endif -%}
-    <a href="{{ product_card_product.url | default: '#' | within: collection }}" class="product-title alt-font" aria-label="product">
+    <a href="{{ product_card_product.url | default: '#'  }}" class="product-title alt-font" aria-label="product">
       {{ product_card_product.title | escape }}
     </a>
     {%- unless login_to_see == false -%}

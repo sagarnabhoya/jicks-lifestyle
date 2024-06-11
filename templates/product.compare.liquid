@@ -22,14 +22,14 @@
     {%- if product.available == true -%}
       <a href="/cart/add?id={{ selected_variant.id }}" class="btn btn-black btn-small" data-trigger="addtocart" data-variant="{{ selected_variant.id }}">Add to cart</a>
     {%- else -%}
-      <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.product_compare.view_product' | t }}</a>
+      <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.product_compare.view_product' | t }}</a>
     {%- endif -%}
   {%- else -%}
     {%- assign selected_variant = product.selected_or_first_available_variant -%}
     {%- if selected_variant.available -%}
-      <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.product_compare.select_option' | t }}</a>
+      <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.product_compare.select_option' | t }}</a>
     {%- else -%}
-      <a href="{{ product.url | default: '#' | within: collection }}" class="btn btn-black btn-small">{{ 'templates.product_compare.view_product' | t }}</a>
+      <a href="{{ product.url | default: '#'  }}" class="btn btn-black btn-small">{{ 'templates.product_compare.view_product' | t }}</a>
     {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}

@@ -47,7 +47,7 @@
             </div>
           </div> 
         {%- else -%}  
-          <a href="{{ product_card_product.url | default: '#' | within: collection }}" class="d-block" aria-label="product">
+          <a href="{{ product_card_product.url | default: '#'  }}" class="d-block" aria-label="product">
             {%- if product_card_product.media -%}
               {%- render 'responsive-image', media: product_card_product.media, type: 'product', placeholder_type: 'product-image', image_ratio: settings.product_image_ratio, show_secondary_image: show_secondary_image -%}
             {%- endif -%}
@@ -132,7 +132,7 @@
     <div class="product-footer{% if product_card_style == 'shop-simple' %} text-center text-xl-start d-xl-flex{% endif %}{% if product_card_style == 'shop-metro' %} d-flex flex-column flex-xl-row{% endif %}">        
       {%- if product_card_style == 'shop-simple' -%}
         <div class="product-title-wrapper">
-          <a href="{{ product_card_product.url | default: '#' | within: collection }}" class="product-title alt-font" aria-label="product">
+          <a href="{{ product_card_product.url | default: '#'  }}" class="product-title alt-font" aria-label="product">
             {{ product_card_product.title | escape }}
           </a>
           {%- if product_card_product.type != blank -%}
@@ -146,7 +146,7 @@
         </div>
       {%- elsif product_card_style == 'shop-metro' -%}
         <div class="product-title-wrapper">
-          <a href="{{ product_card_product.url | default: '#' | within: collection }}" class="product-title alt-font" aria-label="product">
+          <a href="{{ product_card_product.url | default: '#'  }}" class="product-title alt-font" aria-label="product">
             {{ product_card_product.title | escape }}
           </a>
           {%- if product_card_product.type != blank -%}
@@ -196,7 +196,7 @@
             {%- render 'product-card-rating-badge', product: product_card_product, review_app : review_app -%}
           </div>
         {%- endif -%}
-        <a href="{{ product_card_product.url | default: '#' | within: collection }}" class="product-title alt-font" aria-label="product">
+        <a href="{{ product_card_product.url | default: '#'  }}" class="product-title alt-font" aria-label="product">
           {{ product_card_product.title | escape }}
         </a>
       {%- endif -%}

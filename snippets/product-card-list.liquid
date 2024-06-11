@@ -36,7 +36,7 @@
         </div>
       </div> 
     {%- else -%}  
-      <a href="{{ product.url | default: '#' | within: collection }}" class="d-block" aria-label="product">
+      <a href="{{ product.url | default: '#'  }}" class="d-block" aria-label="product">
         {%- if product.media -%}
           {%- render 'responsive-image', media: product.media, type: 'product', placeholder_type: 'product-image', show_secondary_image: show_secondary_image -%}
         {%- endif -%}
@@ -67,7 +67,7 @@
         <a href="/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor={{ product.vendor }}&sort_by=title-ascending" aria-label="vendor">{{ product.vendor }}</a>
       </div>
     {%- endunless -%}
-    <a href="{{ product.url | default: '#' | within: collection }}" class="product-title alt-font" aria-label="product">
+    <a href="{{ product.url | default: '#'  }}" class="product-title alt-font" aria-label="product">
       {{ product.title | escape }}
     </a>      
     {%- if can_show_rating == true and  banner_with_product == true -%}
@@ -113,7 +113,7 @@
               {%- if product -%}
               {%- assign selected_variant = product.selected_or_first_available_variant -%}
                 {%- if selected_variant.available == false -%}
-                  <a class="cart-btn position-relative" href="{{ product.url | default: '#' | within: collection }}" data-bs-toggle="tooltip" data-bs-placement="top" class="btn-animation" aria-label="btn">
+                  <a class="cart-btn position-relative" href="{{ product.url | default: '#'  }}" data-bs-toggle="tooltip" data-bs-placement="top" class="btn-animation" aria-label="btn">
                     <i class="icon-feather-shopping-bag"></i>
                       <span class="btn-text">{{ 'general.product_card_list.view_product' | t }}</span></a>
                   </a>

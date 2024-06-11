@@ -49,7 +49,7 @@
         </div>
       {%- else -%}
         <a
-          href="{{ product_card_product.url | default: '#' | within: collection }}"
+          href="{{ product_card_product.url | default: '#'  }}"
           class="d-block"
           aria-label="link"
         >
@@ -341,7 +341,7 @@
               {%- endif -%}
             {%- else -%}
               <a
-                href="{{ product_card_product.url | default: '#' | within: collection }}"
+                href="{{ product_card_product.url | default: '#'  }}"
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
                 title="View product"
@@ -407,7 +407,7 @@
       </div>
     {%- endif -%}
     <a
-      href="{{ product_card_product.url | default: '#' | within: collection }}"
+      href="{{ product_card_product.url | default: '#'  }}"
       class="product-title {% unless product_card_style == 'shop-flat' -%}  alt-font{% endunless %}" aria-label="product"
     >
       {{ product_card_product.title | escape }}
