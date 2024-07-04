@@ -10,6 +10,7 @@
         "title_uppercase": false,
         "border_top": true,
         "border_bottom": false,
+        "hide_breadcrumb": true,
         "show_mobile": true
       }
     },
@@ -20,14 +21,14 @@
           "type": "categories",
           "settings": {
             "title": "Categories",
-            "category_menu": "blog-category"
+            "category_menu": "main-menu"
           }
         },
         "76089154-cc51-4ae3-b31c-bd5a4edfbf23": {
           "type": "recent-post",
           "settings": {
             "title": "Recent post",
-            "recent_post": "leather",
+            "recent_post": "news",
             "post_limit": 3,
             "blog_show_date": true,
             "blog_show_author": false,
@@ -39,32 +40,21 @@
         },
         "b1c664dd-b86c-48fb-ad71-2e4ad826133f": {
           "type": "tags",
+          "disabled": true,
           "settings": {
-            "title": "Tag cloud"
-          }
-        },
-        "4ee192ea-f592-4511-b771-2f623d2aec9e": {
-          "type": "instagram",
-          "settings": {
-            "title": "Instagram",
-            "count": 6
-          }
-        },
-        "c8f166b4-9c4f-42f6-b79a-e60ff017fb88": {
-          "type": "banner",
-          "settings": {
-            "title": "",
-            "banenr_image": "shopify://shop_images/demo-fashion-blog-banner-img-2.jpg",
-            "banner_url": "shopify://collections"
+            "title": "Related Tags"
           }
         }
       },
       "block_order": [
         "235f5a62-76e0-4d1f-bf84-fdd54d73fd59",
         "76089154-cc51-4ae3-b31c-bd5a4edfbf23",
-        "b1c664dd-b86c-48fb-ad71-2e4ad826133f",
-        "4ee192ea-f592-4511-b771-2f623d2aec9e",
-        "c8f166b4-9c4f-42f6-b79a-e60ff017fb88"
+        "b1c664dd-b86c-48fb-ad71-2e4ad826133f"
+      ],
+      "custom_css": [
+        ".article-detail-wrap h1 {}",
+        ".article-content h2 {font-size: 32px; line-height: normal; margin-bottom: 8px; margin-top: 4px;}",
+        ".article-content h3 {margin-top: 8px; font-size: 28px; margin-bottom: 6px;}"
       ],
       "settings": {
         "container_type": "container",
@@ -74,23 +64,24 @@
         "show_articles_catagory": true,
         "show_articles_comments": true,
         "show_featured_img": true,
-        "article_excerpt": false,
-        "show_social_share": true,
+        "article_excerpt": true,
+        "show_social_share": false,
         "show_article_tag": true,
         "heading": "Related blogs",
         "heading_alignment": "center",
         "section_heading_color": "",
-        "section_heading_size": 45,
+        "section_heading_size": 38,
         "heading_line_height": 55,
-        "post_limit_desktop": 4,
+        "post_limit_desktop": 3,
         "post_limit_mini_desktop": 3,
         "post_limit_tablet": 2,
         "post_limit_mobile": 1,
-        "post_limit": 4,
+        "post_limit": 3,
         "padding_top": "pt-0",
         "padding_bottom": "medium-section-bottom",
         "section_show": true,
         "section_bg_color": "",
+        "section_gradient": "",
         "element_id": "",
         "section_class_name": ""
       }

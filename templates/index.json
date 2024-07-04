@@ -6,11 +6,11 @@
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_1_1_mbl.jpg",
-            "title": "Ultimate <br> Comfort",
+            "image": "shopify:\/\/shop_images\/52_copy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/52_copy.jpg",
+            "title": "",
             "subtitle": "",
-            "description": "Premium men’s underwear for all-day ease.",
+            "description": "",
             "txt_alignment": "end",
             "box_alignment": "justify-content-end align-items-center",
             "mblTxtSpc": true,
@@ -20,29 +20,8 @@
             "btn_border_width": 2,
             "btn_icon_class": "",
             "icon_position": "right-icon",
-            "btn_text": "Shop collection",
+            "btn_text": "",
             "btn_link": "shopify:\/\/collections\/men-brief"
-          }
-        },
-        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner_3_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_3_1_mbl.jpg",
-            "title": "Step<br> Comfort",
-            "subtitle": "",
-            "description": "Premium socks for ultimate ease.",
-            "txt_alignment": "end",
-            "box_alignment": "justify-content-end align-items-center",
-            "mblTxtSpc": true,
-            "button_style": "btn-custom",
-            "button_size": "btn-large",
-            "btn_radius": 4,
-            "btn_border_width": 2,
-            "btn_icon_class": "",
-            "icon_position": "right-icon",
-            "btn_text": "Shop collection",
-            "btn_link": "shopify:\/\/collections\/socks"
           }
         },
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-2": {
@@ -69,17 +48,16 @@
       },
       "block_order": [
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-0",
-        "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-1",
         "template--16017079468225__5310f0dd-15f1-4134-a728-485c3f1ef44e-167887624100115da1-2"
       ],
       "settings": {
         "container_type": "w-100",
-        "show_content_container": true,
+        "show_content_container": false,
         "full_height": false,
-        "custom_height_desktop": 850,
-        "custom_height_mini_desktop": 600,
-        "custom_height_ipad": 500,
-        "custom_height_mobile": 700,
+        "custom_height_desktop": 1080,
+        "custom_height_mini_desktop": 820,
+        "custom_height_ipad": 720,
+        "custom_height_mobile": 640,
         "column_width": "9",
         "show_magic_cursor": false,
         "magic_cursor_color_scheme": "dark",
@@ -200,7 +178,7 @@
       "settings": {
         "container_type": "container",
         "show_content_container": false,
-        "image": "shopify:\/\/shop_images\/offer_banner.jpg",
+        "image": "shopify:\/\/shop_images\/Creative_portfolio_page-0001.jpg",
         "column_width": "12",
         "hide_image": true,
         "block_heading": "We are a lifestyle brand & we believe that great style",
@@ -208,14 +186,14 @@
         "block_description": "<p>Lorem ipsum is simply dolor amet consectetur adipiscing elit eiusmod tempor incididunt ut labore dolore magna ut enim veniam.<\/p>",
         "column_width1": "6",
         "hide_content": false,
-        "button_style": "btn-black",
+        "button_style": "btn-black-border",
         "button_size": "btn-medium",
         "btn_radius": 4,
         "btn_border_width": 2,
         "btn_icon_class": "",
         "icon_position": "right-icon",
         "btn_text": "Explore question",
-        "btn_link": "shopify:\/\/collections\/underwear",
+        "btn_link": "{{ shop.brand.favicon_url }}",
         "counter_title1": "6M+",
         "counter_sub_title1": "Happy clients",
         "counter_title2": "5M+",
@@ -306,16 +284,16 @@
         "banner_image_6E9bMm": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify:\/\/shop_images\/Add_a_heading.png",
-            "mbl_img": "shopify:\/\/shop_images\/Add_a_heading.png",
+            "banner_img": "shopify:\/\/shop_images\/Hi_I_m_Selene_a_lifestyle_and_beauty_blogger_I_write_makeup_tutorials_and_beauty_reviews_1.jpg",
+            "mbl_img": "shopify:\/\/shop_images\/Hi_I_m_Selene_a_lifestyle_and_beauty_blogger_I_write_makeup_tutorials_and_beauty_reviews_1.jpg",
             "banner_url": "shopify:\/\/collections\/men-brief"
           }
         },
         "banner_image_FbRp69": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify:\/\/shop_images\/Add_a_heading_1.png",
-            "mbl_img": "shopify:\/\/shop_images\/Add_a_heading_1.png",
+            "banner_img": "shopify:\/\/shop_images\/Hi_I_m_Selene_a_lifestyle_and_beauty_blogger_I_write_makeup_tutorials_and_beauty_reviews.jpg",
+            "mbl_img": "shopify:\/\/shop_images\/Hi_I_m_Selene_a_lifestyle_and_beauty_blogger_I_write_makeup_tutorials_and_beauty_reviews.jpg",
             "banner_url": "shopify:\/\/collections\/men-trunk"
           }
         }
@@ -325,7 +303,7 @@
         "banner_image_FbRp69"
       ],
       "settings": {
-        "container_type": "container-fluid",
+        "container_type": "w-100 overflow-hidden",
         "padding_top": "pt-0",
         "padding_bottom": "very-small-section-bottom",
         "section_show": true,
@@ -462,8 +440,8 @@
         "banner_image_RzaTKF": {
           "type": "banner_image",
           "settings": {
-            "banner_img": "shopify:\/\/shop_images\/banner-1.jpg",
-            "banner_url": "shopify:\/\/collections\/socks"
+            "banner_img": "shopify:\/\/shop_images\/ZimCore_Hubs_page-0001.jpg",
+            "banner_url": "https:\/\/www.flipkart.com\/search?q=jicks&sid=clo%2Cqfl%2Cszr%2C3xl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=jicks%7CMen%27s+Briefs+and+Trunks&requestId=6037d00f-acf9-4a53-a268-41473cf1eb3e&as-searchtext=jic"
           }
         }
       },
@@ -744,14 +722,13 @@
     },
     "162756150392c08718": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "container_type": "container",
         "heading": "Recent articles",
         "sub_heading": "Latest news",
         "description": "",
         "title_style": "style-1",
-        "blog": "",
+        "blog": "news",
         "show_tags_category": "category",
         "blog_show_date": false,
         "blog_show_author": true,
@@ -767,7 +744,7 @@
         "btn_icon_class": "",
         "icon_position": "right-icon",
         "view_btn_text": "View All",
-        "post_limit_desktop": 4,
+        "post_limit_desktop": 3,
         "post_limit_mini_desktop": 3,
         "post_limit_tablet": 2,
         "post_limit_mobile": 1,
@@ -788,6 +765,102 @@
         "section_sub_heading_color": "#af6f3d",
         "section_description_color": "",
         "element_id": "",
+        "section_class_name": ""
+      }
+    },
+    "faq_LGfPwf": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_ATcDFa": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What should I do if my underwear is not the right size?",
+            "answer": "<p>When your underwear is not the right size, you may notice several signs. If the waistband feels loose or moves when you bend or squat, it might be too big. Conversely, if it feels tight, digs into your skin, or restricts your movement, it might be too small. Always choose underwear that fits comfortably without causing any discomfort.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_QpNX9r": {
+          "type": "faq-item",
+          "settings": {
+            "question": "How can I select the best underwear for me?",
+            "answer": "<p>Selecting the best underwear involves considering both comfort and fit. Look for underwear that fits snugly without being too tight around the waist and thighs. Ensure there is enough room in the crotch area to prevent discomfort. When choosing underwear, consider factors like fabric, breathability, and support to find the perfect pair for your needs.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_dzE7yM": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What is better: boxer briefs or trunks?",
+            "answer": "<p>Both boxer briefs and trunks have their benefits. Boxer briefs offer more coverage and are ideal for those who prefer extra support and coverage. Trunks, on the other hand, provide a slimmer fit and are great for those who want a sleek look. The choice between the two depends on personal preference and the level of comfort you seek.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_6jYyR4": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What should I wear over my boxers?",
+            "answer": "<p>Boxers are versatile and can be worn under various types of clothing. You can wear boxers under jeans, pants, or even shorts. They provide ample ventilation and comfort, making them a great choice for everyday wear.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_3tieeQ": {
+          "type": "faq-item",
+          "settings": {
+            "question": "How often should I replace my underwear?",
+            "answer": "<p>It's generally recommended to replace your underwear every six to twelve months, depending on how often you wear and wash them. Look out for signs of wear and tear, such as holes, stretched elastic, or fabric thinning, as indicators that it's time for a new pair.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_FCP9tC": {
+          "type": "faq-item",
+          "settings": {
+            "question": "Can I wear the same underwear for different activities?",
+            "answer": "<p>While you can wear the same underwear for various activities, it's best to choose specific types for different purposes. For example, breathable and moisture-wicking fabrics are ideal for workouts, while softer, more relaxed styles are better for lounging or sleeping.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_xcteH6": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What fabrics are best for underwear?",
+            "answer": "<p>The best fabrics for underwear are those that offer comfort, breathability, and durability. Cotton is a popular choice for its softness and breathability. Modal and bamboo fabrics are also great options, known for their smooth texture and moisture-wicking properties. For activewear, consider fabrics like nylon or polyester blends that provide stretch and quick-drying capabilities.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_ATcDFa",
+        "faq_item_QpNX9r",
+        "faq_item_dzE7yM",
+        "faq_item_6jYyR4",
+        "faq_item_3tieeQ",
+        "faq_item_FCP9tC",
+        "faq_item_xcteH6"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "How can we help you?",
+        "sub_heading": "",
+        "description": "<p>Frequently asked questions<\/p>",
+        "title_style": "style-1",
+        "inactive_icon": "feather-plus",
+        "active_icon": "feather-minus",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
         "section_class_name": ""
       }
     },
@@ -899,6 +972,7 @@
     "f55637a2-1b79-4c37-b19e-ac7f4af92129",
     "d23152c3-1a2d-422a-b4e2-ff8c8f8a1b62",
     "162756150392c08718",
+    "faq_LGfPwf",
     "75d56f60-8f24-4e64-acad-68179ef3f872",
     "instagram_feed_8rnkaL",
     "171441611064dd8f15"

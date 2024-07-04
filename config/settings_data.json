@@ -350,7 +350,7 @@
           "copy_right_logo_width": 105,
           "copy_logo_url": "",
           "copyright_content_alignment": "start",
-          "copyright_text": "<p>©2024 Jicks Lifestyle. All Rights Reserved.<\/p><p>Made with lots of coffee and <strong>♥<\/strong> by <a href=\"https:\/\/www.shopifywale.com\" target=\"_blank\" title=\"Shopifywale\">Shopifywale<\/a>.<\/p>",
+          "copyright_text": "<p>©2024 Jicks Lifestyle. All Rights Reserved.<\/p><p>Made with lots of coffee and <b style=\"color:#FF0000\">♥<\/b> by <a href=\"https:\/\/www.shopifywale.com\" target=\"_blank\" title=\"Shopifywale\">Shopifywale<\/a>.<\/p>",
           "show_block3": false,
           "block3_type": "show_payment_icon",
           "content_position": "center",
