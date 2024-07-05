@@ -68,7 +68,7 @@
                   class="quantity-input"
                   type="number"
                   name="quantity"
-                  min="0"
+                  min="{{item.product.metafields.custom.minimum_order_quantity}}"
                   value="{{ item.quantity }}"
                   data-id="{{ item.key }}"
                   id="quantity-input-{{ forloop.index }}"

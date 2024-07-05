@@ -66,7 +66,7 @@
         <div class="quantity">
           <quantity-input class="quantity">
             <button class="quantity-button quantity-minus feather-minus" name="minus" type="button" aria-label="minus"><span class="visually-hidden">-</span></button>
-            <input id="quantity-input" class="quantity-input" type="number" name="items[][quantity]" id="Quantity-{{ product.id }}" min="0" value="1" />
+            <input id="quantity-input" class="quantity-input" type="number" name="items[][quantity]" id="Quantity-{{ product.id }}" min="{{product.metafields.custom.minimum_order_quantity}}" value="1" />
             <label for="quantity-input" class="visually-hidden"></label>
             <button class="quantity-button quantity-plus feather-plus" name="plus" type="button" aria-label="plus"><span class="visually-hidden">+</span></button>
           </quantity-input>

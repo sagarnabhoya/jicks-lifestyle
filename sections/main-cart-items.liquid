@@ -141,7 +141,7 @@
                                   type="number" 
                                   name="updates[]" 
                                   value="{{ item.quantity }}" 
-                                  min="0" 
+                                  min="{{item.product.metafields.custom.minimum_order_quantity}}" 
                                   aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}" 
                                   id="Quantity-{{ item.index | plus: 1 }}" 
                                   {% if item.id == giftwrap_product_id %}
